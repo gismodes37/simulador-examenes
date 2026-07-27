@@ -1,5 +1,16 @@
 # Simulador de Exámenes de Radioafición Chile
 
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.0-4b49ac?style=for-the-badge&label=Simulador" alt="Version">
+  <img src="https://img.shields.io/badge/python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/django-5.x-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+  <img src="https://img.shields.io/badge/postgresql-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/docker-24.0-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/htmx-1.9-3366CC?style=for-the-badge&logo=htmx&logoColor=white" alt="HTMX">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="MIT License">
+</p>
+
 Simulador de práctica para licencias de radioaficionado en Chile, basado en los exámenes oficiales de **SUBTEL**. Incluye 1,022 preguntas extraídas de los apéndices oficiales, cubriendo las 4 categorías de licencia: CD, CA, CE y XQ.
 
 Complementa la herramienta existente de [CE3AA](https://www.ce3aa.cl/) enfocándose en el **aprendizaje**: seguimiento de progreso, historial, detección de debilidades y explicaciones.
