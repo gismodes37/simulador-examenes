@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - "2086:5432"
+    environment:
+      POSTGRES_DB: ${DB_NAME:-simulador_examenes}
+      POSTGRES_USER: ${DB_USER:-simulador}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-simulador_secret}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-simulador} -d ${DB_NAME:-simulador_examenes}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      DB_NAME: ${DB_NAME:-simulador_examenes}
+      DB_USER: ${DB_USER:-simulador}
+      DB_PASSWORD: ${DB_PASSWORD:-simulador_secret}
+      DB_HOST: db
+      DB_PORT: "5432"
+      DEBUG: "true"
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-production}
+    volumes:
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

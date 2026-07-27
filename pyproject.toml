@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulador-examenes"
+version = "0.1.0"
+description = "Chilean radio amateur exam simulator"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "Django>=5.0,<6.0",
+    "psycopg2-binary>=2.9,<3.0",
+    "PyMuPDF>=1.24,<2.0",
+    "python-dotenv>=1.0,<2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest-django>=4.8,<5.0",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
