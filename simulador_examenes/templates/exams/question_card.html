@@ -1,0 +1,79 @@
+{# HTMX fragment: replaces #question-card after answer submission #}
+<div class="card" id="question-card">
+    <div class="card-body p-4 p-md-5">
+        <!-- Area badge -->
+        <div class="mb-3">
+            <span class="badge {% if question.area.name == 'Reglamentacion' %}badge-reglamento{% else %}badge-tecnica{% endif %} area-badge">
+                <i class="bi bi-{% if question.area.name == 'Reglamentacion' %}book{% else %}cpu{% endif %} me-1"></i>
+                {{ question.area.name }}
+            </span>
+        </div>
+
+        <!-- Question text -->
+        <div class="question-text mb-4" id="question-text">
+            {{ question.text }}
+        </div>
+
+        <!-- Answer options -->
+        <form id="answer-form"
+              hx-post="{% url 'exams:submit_answer' attempt.pk %}"
+              hx-target="#question-card"
+              hx-swap="outerHTML"
+              hx-indicator="#submitting-indicator">
+            {% csrf_token %}
+            <input type="hidden" name="question_id" value="{{ question.pk }}">
+            <input type="hidden" name="answer" id="selected-answer" value="">
+
+            <div class="answer-options" id="answer-buttons">
+                <button type="button" class="btn-answer" data-answer="A" onclick="selectAnswer('A')">
+                    <span class="opt-letter">A</span>{{ question.option_a }}
+                </button>
+                <button type="button" class="btn-answer" data-answer="B" onclick="selectAnswer('B')">
+                    <span class="opt-letter">B</span>{{ question.option_b }}
+                </button>
+                <button type="button" class="btn-answer" data-answer="C" onclick="selectAnswer('C')">
+                    <span class="opt-letter">C</span>{{ question.option_c }}
+                </button>
+                <button type="button" class="btn-answer" data-answer="D" onclick="selectAnswer('D')">
+                    <span class="opt-letter">D</span>{{ question.option_d }}
+                </button>
+            </div>
+
+            <div class="mt-4 text-center" id="submitting-indicator" style="display:none;">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Procesando...</span>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center" id="submit-btn-wrapper" style="display:none;">
+                <button type="submit" class="btn btn-primary btn-lg px-5" id="submit-btn">
+                    {% if is_last %}
+                        <i class="bi bi-check-circle-fill"></i> Finalizar Examen
+                    {% else %}
+                        <i class="bi bi-arrow-right-circle"></i> Siguiente Pregunta
+                    {% endif %}
+                </button>
+            </div>
+        </form>
+
+        {# Training mode feedback (hidden, extracted by JS) #}
+        {% if attempt.mode == 'training' %}
+        <div id="training-feedback" class="mt-4" style="display:none;">
+            <div class="alert {% if is_correct %}alert-success{% else %}alert-danger{% endif %} mb-2">
+                <strong>
+                    {% if is_correct %}
+                        <i class="bi bi-check-circle-fill"></i> ¡Correcto!
+                    {% else %}
+                        <i class="bi bi-x-circle-fill"></i> Incorrecto — tu respuesta: {{ selected_answer }} · Correcta: {{ question.correct_answer }}
+                    {% endif %}
+                </strong>
+            </div>
+            {% if question.explanation %}
+            <div class="alert alert-info small mb-0">
+                <i class="bi bi-info-circle-fill"></i> {{ question.explanation }}
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>

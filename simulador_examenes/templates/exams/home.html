@@ -1,0 +1,239 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Simulador de Exámenes Radioafición Chile{% endblock %}
+
+{% block content %}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <h1 class="hero-title">
+                    Simulador de<br>
+                    Exámenes de<br>
+                    Radioafición
+                </h1>
+                <p class="hero-subtitle">
+                    Prepara tu licencia de radioaficionado con exámenes de práctica
+                    basados en el reglamento oficial de Chile. Sintoniza tu nivel,
+                    categoría por categoría.
+                </p>
+                <div class="d-flex gap-3 flex-wrap mb-3">
+                    <a href="#categorias" class="hero-badge">
+                        <i class="bi bi-play-circle-fill"></i> Comenzar ahora
+                    </a>
+                    <a href="#como-funciona" class="hero-badge">
+                        <i class="bi bi-info-circle"></i> Cómo funciona
+                    </a>
+                </div>
+                <div class="hero-readout">
+                    <span class="num counter-value" data-target="1022">0</span>
+                    <span class="lbl">preguntas oficiales</span>
+                </div>
+            </div>
+            <div class="col-lg-5 d-none d-lg-flex justify-content-center">
+                <svg viewBox="0 0 200 200" width="240" height="240" class="smeter-static">
+                    <circle cx="100" cy="100" r="88" fill="none" stroke="var(--ra-border)" stroke-width="12" />
+                    <circle cx="100" cy="100" r="88" fill="none" stroke="var(--ra-tune)" stroke-width="12"
+                            stroke-dasharray="553" stroke-dashoffset="122"
+                            stroke-linecap="round" transform="rotate(-90 100 100)" />
+                    <text x="100" y="92" text-anchor="middle" class="mono fw-bold"
+                          fill="var(--ra-ink)" font-size="36">78%</text>
+                    <text x="100" y="118" text-anchor="middle"
+                          fill="var(--ra-ink-muted)" font-size="11">S9+20 · Señal fuerte</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     STATS
+     ============================================================ -->
+<section class="stats-section">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-sm-4">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="bi bi-folder-fill"></i></div>
+                    <span class="stat-number counter-value" data-target="1022">0</span>
+                    <span class="stat-label">preguntas oficiales</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="bi bi-grid-fill"></i></div>
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">categorías de licencia</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="bi bi-speedometer2"></i></div>
+                    <span class="stat-number">70%</span>
+                    <span class="stat-label">umbral de aprobación</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     CATEGORIES — signal strength = license level
+     ============================================================ -->
+<section id="categorias" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="section-title">Elige tu categoría</h2>
+        <p class="section-subtitle">Selecciona la categoría de licencia que deseas preparar</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+        {% for cat in categories %}
+        <div class="col-sm-6 col-lg-3">
+            <a href="{% url 'exams:exam_setup' cat.code %}" class="text-decoration-none">
+                <div class="card-category card-cat-{{ cat.code|lower }}">
+                    <div class="cat-code-label">{{ cat.code }}</div>
+                    <div class="cat-name-label">{{ cat.name }}</div>
+
+                    {% if cat.code == 'CD' %}
+                        <svg viewBox="0 0 100 100" width="90" height="90" class="smeter-cat">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-ink-muted)" stroke-width="7"
+                                    stroke-dasharray="251" stroke-dashoffset="188" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink-muted)" font-size="16" class="mono fw-bold">25</text>
+                        </svg>
+                    {% elif cat.code == 'CA' %}
+                        <svg viewBox="0 0 100 100" width="90" height="90" class="smeter-cat">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#cd7f32" stroke-width="7"
+                                    stroke-dasharray="251" stroke-dashoffset="126" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">50</text>
+                        </svg>
+                    {% elif cat.code == 'CE' %}
+                        <svg viewBox="0 0 100 100" width="90" height="90" class="smeter-cat">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-signal)" stroke-width="7"
+                                    stroke-dasharray="251" stroke-dashoffset="63" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">75</text>
+                        </svg>
+                    {% elif cat.code == 'XQ' %}
+                        <svg viewBox="0 0 100 100" width="90" height="90" class="smeter-cat">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-tune)" stroke-width="7"
+                                    stroke-dasharray="251" stroke-dashoffset="13" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">95</text>
+                        </svg>
+                    {% else %}
+                        <svg viewBox="0 0 100 100" width="90" height="90" class="smeter-cat">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-signal)" stroke-width="7"
+                                    stroke-dasharray="251" stroke-dashoffset="126" stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">50</text>
+                        </svg>
+                    {% endif %}
+
+                    <div class="cat-exam-info">
+                        <i class="bi bi-clipboard-check"></i>
+                        Examen: {{ cat.exam_size }} preguntas
+                    </div>
+                    <span class="cat-cta">
+                        <i class="bi bi-play-circle"></i> Comenzar
+                    </span>
+                </div>
+            </a>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <div class="empty-state">
+                <div class="empty-state-icon"><i class="bi bi-inbox"></i></div>
+                <h5 class="mb-2">No hay categorías disponibles</h5>
+                <p class="mb-0">Importa preguntas desde el panel de administración.</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+<section id="como-funciona" class="steps-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">¿Cómo funciona?</h2>
+            <p class="section-subtitle">Tres pasos para comenzar a preparar tu licencia</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="step-item">
+                    <div class="step-icon-wrap">
+                        <i class="bi bi-folder2-open"></i>
+                        <span class="step-number-badge">1</span>
+                    </div>
+                    <h5 class="step-title">Elige categoría</h5>
+                    <p class="step-desc">Selecciona la categoría de licencia que quieres preparar: CD, CA, CE o XQ.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step-item">
+                    <div class="step-icon-wrap">
+                        <i class="bi bi-sliders"></i>
+                        <span class="step-number-badge">2</span>
+                    </div>
+                    <h5 class="step-title">Selecciona modo</h5>
+                    <p class="step-desc">Examen cronometrado como el real, o entrenamiento con retroalimentación instantánea.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step-item">
+                    <div class="step-icon-wrap">
+                        <i class="bi bi-trophy-fill"></i>
+                        <span class="step-number-badge">3</span>
+                    </div>
+                    <h5 class="step-title">¡Practica!</h5>
+                    <p class="step-desc">Responde las preguntas, revisa tus resultados y repite hasta estar listo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const counters = document.querySelectorAll('.counter-value[data-target]');
+    const speed = 40;
+
+    const animateCounter = (counter) => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const increment = target / speed;
+        const timer = setInterval(() => {
+            count += increment;
+            if (count >= target) {
+                counter.textContent = target.toLocaleString('es-CL');
+                clearInterval(timer);
+            } else {
+                counter.textContent = Math.floor(count).toLocaleString('es-CL');
+            }
+        }, 30);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    counters.forEach(c => observer.observe(c));
+});
+</script>
+{% endblock %}

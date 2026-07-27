@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Resultados — {{ attempt.category.code }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{% url 'exams:home' %}">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="{% url 'exams:exam_history' %}">Historial</a></li>
+                    <li class="breadcrumb-item active">Resultados</li>
+                </ol>
+            </nav>
+
+            <!-- Result hero card -->
+            <div class="card result-card {% if passed %}result-pass{% else %}result-fail{% endif %} mb-4">
+                <div class="result-hero">
+                    <div class="result-score-circle {% if passed %}score-pass{% else %}score-fail{% endif %}">
+                        <span class="result-score-value mono">{{ score }}%</span>
+                    </div>
+                    <div class="result-label">
+                        {% if passed %}¡Aprobado! · {{ score }}%{% else %}No alcanzado · {{ score }}%{% endif %}
+                    </div>
+                    <p class="mt-2 mb-0 mono" style="color: var(--ra-ink-muted); font-size:.92rem;">
+                        {{ correct_count }} de {{ total_questions }} respuestas correctas
+                    </p>
+                </div>
+
+                <div class="result-details">
+                    <!-- Category and mode info -->
+                    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge bg-primary fs-6">{{ attempt.category.code }}</span>
+                            <span class="badge {% if attempt.mode == 'exam' %}badge-mode-exam{% else %}badge-mode-training{% endif %}">
+                                {% if attempt.mode == 'exam' %}
+                                    <i class="bi bi-stopwatch"></i> Examen
+                                {% else %}
+                                    <i class="bi bi-lightbulb"></i> Entrenamiento
+                                {% endif %}
+                            </span>
+                        </div>
+                        <small class="mono" style="color: var(--ra-ink-muted);">
+                            <i class="bi bi-calendar3"></i> {{ attempt.started_at|date:"d/m/Y H:i" }}
+                        </small>
+                    </div>
+
+                    <!-- Score breakdown -->
+                    <div class="row g-3 text-center mb-3">
+                        <div class="col-sm-6">
+                            <div class="p-3 stat-box">
+                                <div class="mb-1">
+                                    <span class="badge badge-reglamento px-3 py-1">
+                                        <i class="bi bi-book me-1"></i> Reglamento
+                                    </span>
+                                </div>
+                                <div class="fs-2 fw-bold mono">{{ reglamento_score }}%</div>
+                                <small style="color: var(--ra-ink-muted);">{{ reglamento_correct }} / {{ reglamento_total }}</small>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 stat-box">
+                                <div class="mb-1">
+                                    <span class="badge badge-tecnica px-3 py-1">
+                                        <i class="bi bi-cpu me-1"></i> Técnica
+                                    </span>
+                                </div>
+                                <div class="fs-2 fw-bold mono">{{ tecnica_score }}%</div>
+                                <small style="color: var(--ra-ink-muted);">{{ tecnica_correct }} / {{ tecnica_total }}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wrong answers detail -->
+            {% if wrong_answers %}
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="mb-0 fw-bold">
+                        <i class="bi bi-list-check me-1"></i>
+                        Respuestas incorrectas
+                    </h5>
+                    <span class="badge" style="background-color: var(--ra-alarm); color:#fff;">
+                        {{ wrong_answers|length }}
+                    </span>
+                </div>
+                <div class="card-body p-0">
+                    {% for item in wrong_answers %}
+                    <div class="wrong-answer-row {% if not forloop.last %}border-bottom{% endif %}" style="border-color: var(--ra-border) !important;">
+                        <div class="d-flex align-items-start gap-3">
+                            <span class="badge {% if item.question.area.name == 'Reglamentacion' %}badge-reglamento{% else %}badge-tecnica{% endif %} area-badge mt-1 flex-shrink-0">
+                                {{ item.question.area.name|truncatechars:5 }}
+                            </span>
+                            <div class="flex-grow-1">
+                                <p class="mb-2 fw-semibold" style="line-height:1.6;">{{ item.question.text }}</p>
+                                <div class="small">
+                                    <div class="mb-1" style="color: var(--ra-alarm);">
+                                        <i class="bi bi-x-circle-fill me-1"></i>
+                                        <strong>Tu respuesta: {{ item.selected }}</strong>
+                                        — {{ item.selected_text }}
+                                    </div>
+                                    <div style="color: var(--ra-tune);">
+                                        <i class="bi bi-check-circle-fill me-1"></i>
+                                        <strong>Correcta: {{ item.question.correct_answer }}</strong>
+                                        — {{ item.correct_text }}
+                                    </div>
+                                </div>
+                                {% if item.question.explanation %}
+                                <div class="mt-2 small p-2 rounded-3 alert-info">
+                                    <i class="bi bi-info-circle me-1"></i> {{ item.question.explanation }}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Actions -->
+            <div class="d-flex gap-3 flex-wrap">
+                <a href="{% url 'exams:exam_setup' attempt.category.code %}" class="btn btn-primary btn-lg px-4">
+                    <i class="bi bi-arrow-repeat"></i> Volver a intentar
+                </a>
+                <a href="{% url 'exams:home' %}" class="btn btn-outline-secondary btn-lg px-4">
+                    <i class="bi bi-house"></i> Inicio
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,1032 @@
+{
+  "category": "CD",
+  "area": "Tecnica",
+  "questions": [
+    {
+      "text": "Un átomo está constituido esencialmente de:",
+      "option_a": "Cargas, potencias y resistencias",
+      "option_b": "Iones positivos e iones negativos",
+      "option_c": "Protones, neutrones y electrones",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Los electrones se encuentran:",
+      "option_a": "En el interior del núcleo",
+      "option_b": "En el interior de la molécula",
+      "option_c": "Rodeando al núcleo",
+      "option_d": "Rodeando la molécula",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los conductores se encuentran entre las sustancias que:",
+      "option_a": "Permiten el paso de la corriente eléctrica con facilidad",
+      "option_b": "Impiden el paso de la corriente",
+      "option_c": "Sirven para aislar circuitos",
+      "option_d": "Rectifican la corriente",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Se define intensidad de corriente:",
+      "option_a": "A la resistencia que opone el conductor al flujo de electrones",
+      "option_b": "Al trabajo que es necesario realizar para transportar un electrón de un pinto a otro",
+      "option_c": "A la fuerza que adquiere el electrón en su trayectoria",
+      "option_d": "Al flujo de electrones que atraviesan por una sección de un conductor en una unidad de tiempo",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La diferencia de potencial entre dos puntos se mide en:",
+      "option_a": "Mho",
+      "option_b": "Ohmio",
+      "option_c": "Voltios",
+      "option_d": "Amperio",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La fuerza eléctrica que produce el movimiento de los electrones en un conductor es:",
+      "option_a": "La conductancia",
+      "option_b": "La temperatura",
+      "option_c": "La tensión eléctrica",
+      "option_d": "La frecuencia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Una diferencia de potencial entre los dos extremos de un conductor produce:",
+      "option_a": "Amplificación",
+      "option_b": "Una resistencia",
+      "option_c": "Una corriente eléctrica",
+      "option_d": "Una frecuencia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Se entiende por corriente eléctrica a:",
+      "option_a": "El trabajo para trasladar un electrón de un punto a otro",
+      "option_b": "La velocidad de un electrón que se mueve en un medio determinado",
+      "option_c": "El desplazamiento de electrones a través de un conductor",
+      "option_d": "La fuerza del electrón para desplazarse",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Se entiende por diferencia de potencial entre 2 puntos a:",
+      "option_a": "El trabajo que realiza una carga eléctrica cuando se traslada desde un punto a otro",
+      "option_b": "Es la diferencia de polaridad entre 2 puntos",
+      "option_c": "Condición necesaria para que exista resistencia eléctrica",
+      "option_d": "Diferencia de velocidad entre electrones al desplazarse de un punto a otro",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se define como potencia eléctrica a:",
+      "option_a": "La energía necesaria que permite trasladar cargas eléctricas",
+      "option_b": "El consumo o generación de energía por Unidad de tiempo",
+      "option_c": "El trabajo de varias cargas para trasladarse entre 2 puntos",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito eléctrico al conectar un elemento resistivo (carga):",
+      "option_a": "Se disipa corriente",
+      "option_b": "Se disipa energía en forma de calor",
+      "option_c": "Se disipa tensión",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La corriente eléctrica se mide en:",
+      "option_a": "Culombios",
+      "option_b": "Voltios",
+      "option_c": "Amperios",
+      "option_d": "Julios",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El siguiente dibujo representa:",
+      "option_a": "Tierra",
+      "option_b": "Resistencia",
+      "option_c": "Bobina",
+      "option_d": "Masa o chassis",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Materiales como el cobre, la plata y el aluminio:",
+      "option_a": "Son resistentes al calor",
+      "option_b": "Poseen una baja conductancia",
+      "option_c": "Son conductores",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La resistencia es:",
+      "option_a": "La facilidad que tiene la corriente para circular por un conductor",
+      "option_b": "La energía que se entrega al circuito",
+      "option_c": "La energía que se consume en el circuito",
+      "option_d": "La oposición del material al paso de la corriente",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "El aire, el papel, la mica, el plástico, el vidrio y el caucho son:",
+      "option_a": "Buenos conductores",
+      "option_b": "Materiales aislantes",
+      "option_c": "Materias disipadoras de energía",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para medir la resistencia se usa el:",
+      "option_a": "Amperímetro",
+      "option_b": "Óhmetro",
+      "option_c": "Voltímetro",
+      "option_d": "Otra resistencia",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito el Amperímetro se conecta en:",
+      "option_a": "Serie",
+      "option_b": "Paralelo",
+      "option_c": "Cualquier forma",
+      "option_d": "Otra respuesta",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito el Voltímetro se conecta en:",
+      "option_a": "Serie",
+      "option_b": "Paralelo",
+      "option_c": "Cualquier forma",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El termino Kilo significa:",
+      "option_a": "10",
+      "option_b": "100",
+      "option_c": "1000",
+      "option_d": "10000",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un resistor con los colores rojo, verde, café tiene una resistencia de:",
+      "option_a": "25 Ohm",
+      "option_b": "250 Ohm",
+      "option_c": "270 Ohm",
+      "option_d": "150 Ohm",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un resistor de 6400 OHM está representado por los colores:",
+      "option_a": "Verde, amarillo, rojo",
+      "option_b": "Azul, amarillo, rojo",
+      "option_c": "Azul, naranja, rojo",
+      "option_d": "Verde, naranja, naranja",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Una diferencia de potencial entre los dos extremos de un conductor produce:",
+      "option_a": "Un efecto de amplificación",
+      "option_b": "Un defecto resistivo",
+      "option_c": "El flujo de una corriente eléctrica",
+      "option_d": "Genera una frecuencia proporcional a la diferencia de potencial",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La aislación eléctrica es:",
+      "option_a": "La facilidad que tiene la corriente de circular por un circuito",
+      "option_b": "La energía que se disipa en el circuito",
+      "option_c": "La energía que se consume en el circuito",
+      "option_d": "La propiedad de los materiales que impide el paso de la corriente",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un condensador es:",
+      "option_a": "Un dispositivo eléctrico capaz de almacenar energía",
+      "option_b": "Dispositivo compuesto por placas que amplifica las frecuencias",
+      "option_c": "Elemento que almacena calor",
+      "option_d": "Elemento que regula la circulación de electrones",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Que es corriente alterna?",
+      "option_a": "Es la emisión continua irradiada por la antena",
+      "option_b": "Es el desplazamiento de electrones que cambia de intensidad y sentido de circulación periódicamente",
+      "option_c": "Es la acumulación de electrones estáticos de placa",
+      "option_d": "Es el flujo de electrones regulados por un capacitor",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Se define corriente continua como:",
+      "option_a": "Desplazamiento de electrones con intensidad constante y sentido de flujo único",
+      "option_b": "Desplazamiento de electrones con interrupciones periódicas",
+      "option_c": "Flujo de electrones que se produce al aplicar en una resistencia una diferencia de potencial",
+      "option_d": "Flujo de electrones producido por la aplicación de una diferencia potencial y que se detecta en bobinas, condensadores y resistencias",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los conductores eléctricos se dividen en:",
+      "option_a": "Metálicos, Electrolíticos y Gaseosos",
+      "option_b": "Metálicos y Electrolíticos",
+      "option_c": "Metálicos y Gaseosos",
+      "option_d": "Solo Metálicos",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un material aislante se caracteriza por:",
+      "option_a": "Una elevada resistencia eléctrica",
+      "option_b": "Una muy baja resistencia eléctrica",
+      "option_c": "Su nula disipación de energía",
+      "option_d": "Su resistencia independiente de la temperatura",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un amperio es equivalente a: I.- 1.000 miliamperios. / II.- 100 micro amperios. / III.- 0,001 Kilo amperios.",
+      "option_a": "Sólo la I y III",
+      "option_b": "Sólo la I y II",
+      "option_c": "Sólo la I",
+      "option_d": "Sólo la III",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El Watt es una:",
+      "option_a": "Medida de potencia eléctrica",
+      "option_b": "Medida de energía eléctrica",
+      "option_c": "Unidad de diferencia de potencial",
+      "option_d": "Unidad de potencia eléctrica",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito serie, la corriente:",
+      "option_a": "Tiene un sólo camino de flujo",
+      "option_b": "Tiene varios caminos de flujo",
+      "option_c": "No tiene caminos de flujo",
+      "option_d": "Otra respuesta",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El siguiente símbolo corresponde a la representación de:",
+      "option_a": "Una pila",
+      "option_b": "Un amperímetro",
+      "option_c": "Tierra",
+      "option_d": "Antena",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para medir la corriente se usa el:",
+      "option_a": "Voltímetro",
+      "option_b": "Amperímetro",
+      "option_c": "Óhmetro",
+      "option_d": "Otra respuesta",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Para medir la tensión se usa el:",
+      "option_a": "Amperímetro",
+      "option_b": "Óhmetro",
+      "option_c": "Voltímetro",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El símbolo representa un:",
+      "option_a": "Inductor",
+      "option_b": "Condensador",
+      "option_c": "Cristal",
+      "option_d": "Inductor variable",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El símbolo representa:",
+      "option_a": "Un transformador",
+      "option_b": "Una inductancia",
+      "option_c": "Un inductor con núcleo de hierro",
+      "option_d": "Una inductancia serie",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El henrio es la unidad de medida de:",
+      "option_a": "Impedancia",
+      "option_b": "Capacidad",
+      "option_c": "Reactancia",
+      "option_d": "Inductancia",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un milihenrio equivale a:",
+      "option_a": "10 H",
+      "option_b": "0,001 H",
+      "option_c": "0,0001 H",
+      "option_d": "0,00001 H",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La capacidad de un condensador se mide en:",
+      "option_a": "Henrios",
+      "option_b": "Voltios",
+      "option_c": "Faradios",
+      "option_d": "Culombios",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El faradio es la unidad de medida de:",
+      "option_a": "Capacidad",
+      "option_b": "Inductancia",
+      "option_c": "Impedancia",
+      "option_d": "Reactancia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "El símbolo representa un:",
+      "option_a": "Condensador variable",
+      "option_b": "Un condensador fijo",
+      "option_c": "Un cristal",
+      "option_d": "Un diodo túnel",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "El vidrio al igual que el papel, la goma, los plásticos, el estaño y el cobre son materias que:",
+      "option_a": "Pueden ser magnetizados fácilmente",
+      "option_b": "No son magnetizables",
+      "option_c": "No se pueden magnetizar, pero el estaño y el cobre sí",
+      "option_d": "Se usan como materiales con propiedades magnéticas para hacer imanes permanentes",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Frecuencia es:",
+      "option_a": "El número de ciclos por segundo",
+      "option_b": "El número de semiciclos por segundo",
+      "option_c": "El tiempo que tarda la señal en llegar al receptor",
+      "option_d": "Otra respuesta",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un Kilohertz equivale a:",
+      "option_a": "10 Hertz",
+      "option_b": "100 Hertz",
+      "option_c": "1000 Hertz",
+      "option_d": "10000 Hertz",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Período es:",
+      "option_a": "El tiempo que tarda un QSO",
+      "option_b": "El tiempo que tarda la señal en efectuar un ciclo",
+      "option_c": "El tiempo que tarda la señal en llegar al receptor",
+      "option_d": "Otra respuesta",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La frecuencia de una onda sinusoidal es:",
+      "option_a": "Proporcional a la amplitud",
+      "option_b": "Independiente del período",
+      "option_c": "Proporcional al período",
+      "option_d": "Inversamente proporcional al período",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Longitud de onda es:",
+      "option_a": "El camino que recorre una señal durante una hora",
+      "option_b": "La distancia entre dos puntos máximos positivos consecutivos",
+      "option_c": "Es la distancia que recorre la señal entre un punto máximo y un punto mínimo",
+      "option_d": "Es la distancia que recorre la señal en un segundo",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Dos condensadores en serie ofrecen más capacidad que dos en paralelo:",
+      "option_a": "Falso, porque la capacidad total disminuye",
+      "option_b": ", porque las capacidades se suman",
+      "option_c": "Falso, porque las capacidades en serie se mantienen",
+      "option_d": "Otra respuesta",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué sucede cuando se conectan dos condensadores en paralelo?:",
+      "option_a": "Que la capacidad total aumenta",
+      "option_b": "Que la capacidad total se divide",
+      "option_c": "Que la capacidad total disminuye",
+      "option_d": "Que el resultado final es la raíz cuadrada de la capacidad final",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Si se conectan condensadores electrolíticos en serie, sus polaridades se conectan de la forma:",
+      "option_a": "Más con más",
+      "option_b": "Menos con menos",
+      "option_c": "Más con menos",
+      "option_d": "No tiene importancia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El núcleo de hierro de un transformador tiene variadas formas, la que más se utiliza es:",
+      "option_a": "El corte en E y en L de las láminas",
+      "option_b": "El laminado abierto",
+      "option_c": "El núcleo de hierro pulverizado",
+      "option_d": "Otra respuesta",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La corriente suministrada por una batería es:",
+      "option_a": "Continua",
+      "option_b": "Alterna",
+      "option_c": "Para emergencia",
+      "option_d": "Acumulada",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La tensión domiciliaria más común en Chile es:",
+      "option_a": "110 volt/50 Hz",
+      "option_b": "110 volt/60 Hz",
+      "option_c": "220 volt/50 Hz",
+      "option_d": "220 volt/60 Hz",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La fuente de poder de un transceptor está destinada a:",
+      "option_a": "Aumentar la potencia de transmisión",
+      "option_b": "Aislar los equipos de la red de suministro eléctrico",
+      "option_c": "Proporcionar la energía necesaria",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "En los bornes de una batería Ud. dispone de:",
+      "option_a": "Voltaje",
+      "option_b": "Caída de tensión",
+      "option_c": "Frecuencia",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La corriente continua puede circular a través de:",
+      "option_a": "Resistencias y condensadores",
+      "option_b": "Condensadores e inductancias",
+      "option_c": "Resistencias e inductancias",
+      "option_d": "Sólo de resistencias",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La corriente alterna puede circular a través de:",
+      "option_a": "Condensadores",
+      "option_b": "Resistencias",
+      "option_c": "Inductancias",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El símbolo representa:",
+      "option_a": "Una inductancia serie",
+      "option_b": "Una inductancia",
+      "option_c": "Una antena",
+      "option_d": "Un transformador",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El sistema AWG se usa para:",
+      "option_a": "Designar longitudes de varillas de toma a tierra",
+      "option_b": "Designar longitudes de vientos en torres",
+      "option_c": "Designar diámetros de cables eléctricos",
+      "option_d": "Designar capacidad de fusibles",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El proceso de transformar voltaje alterno en continuo se llama:",
+      "option_a": "Transformar",
+      "option_b": "Rectificar",
+      "option_c": "Oxidar",
+      "option_d": "Filtrar",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Para evitar daños al equipo de radio la fuente de poder debe ser:",
+      "option_a": "Del voltaje especificado para el equipo",
+      "option_b": "De corriente continua",
+      "option_c": "De amperaje superior al exigido por el equipo",
+      "option_d": "Todas las anteriores. CUESTIONARIO DE ELECTRONICA PARA OPTAR A",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Definimos como emisión electrónica a:",
+      "option_a": "La emisión de los electrones de filamento o cátodo a placa",
+      "option_b": "La circulación de electrones por el conductor",
+      "option_c": "La circulación de protones en la válvula",
+      "option_d": "La calidad del material con que está construida la válvula",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La comunicación por banda lateral única se transmite por medio de:",
+      "option_a": "Una portadora",
+      "option_b": "Dos bandas laterales",
+      "option_c": "Una banda lateral",
+      "option_d": "Una portadora y una banda lateral",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un transmisor de telegrafía es un dispositivo que:",
+      "option_a": "Transmite información por interrupción de portadora",
+      "option_b": "Transmite portadora modulada",
+      "option_c": "Transmite una señal de onda corta",
+      "option_d": "Transmite una señal de onda continua rectificada",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los tres tipos básicos de transmisión más empleados por los radioaficionados son:",
+      "option_a": "Banda lateral superior, telegrafía, frecuencia modulada",
+      "option_b": "Banda lateral inferior, amplitud modulada y frecuencia modulada",
+      "option_c": "Banda lateral única, amplitud modulada y frecuencia modulada",
+      "option_d": "Banda lateral única, telegrafía y modulación de frecuencia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El diodo sirve como:",
+      "option_a": "Amplificador",
+      "option_b": "Rectificador",
+      "option_c": "Micrófono",
+      "option_d": "Atenuador",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El amplificador de radiofrecuencia:",
+      "option_a": "Atenúa sólo señales de audio",
+      "option_b": "Disminuye las señales altas",
+      "option_c": "Amplifica las señales de radiofrecuencia",
+      "option_d": "Disminuye las señales bajas",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La velocidad de propagación de las ondas electromagnéticas en el espacio libre es:",
+      "option_a": "Aproximadamente igual a la velocidad del sonido",
+      "option_b": "Aproximadamente igual a la velocidad de la luz",
+      "option_c": "300 m/s",
+      "option_d": "300.000 m/s",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Toda corriente alterna que posea una frecuencia superior a 10 Khz. Se puede irradiar al espacio siempre que:",
+      "option_a": "Sea continua",
+      "option_b": "Sea oscilante",
+      "option_c": "Exista un receptor de la misma frecuencia",
+      "option_d": "Sea conectada a una antena",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué es longitud de onda?:",
+      "option_a": "El largo de una señal radioeléctrica",
+      "option_b": "La velocidad de propagación de una onda radioeléctrica",
+      "option_c": "La distancia que recorre la onda en el tiempo que dura el ciclo",
+      "option_d": "La distancia que contiene una frecuencia determinada en el espacio",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las propiedades más importantes de una antena son:",
+      "option_a": "Ganancia y capacidad",
+      "option_b": "Ganancia y admitancia",
+      "option_c": "Ganancia y directividad",
+      "option_d": "Ganancia y resistividad",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Al instalar una antena debemos preocuparnos que:",
+      "option_a": "Los contravientos sean sólo de material plástico",
+      "option_b": "Tenga bobinas de carga",
+      "option_c": "Esta quede en paralelo con la línea de 220 V c.a",
+      "option_d": "Haya una buena adaptación de impedancia con el cable de alimentación",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Para calcular el largo de una antena de media onda, si la frecuencia se mide en megahercios, se emplea la fórmula:",
+      "option_a": "1425 /f = metros",
+      "option_b": "142 /f = metros",
+      "option_c": "142,5/f = metros",
+      "option_d": "Otra respuesta",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena de media onda para 40 metros tiene un largo aproximado de:",
+      "option_a": "40 metros",
+      "option_b": "20 metros",
+      "option_c": "10 metros",
+      "option_d": "Otra respuesta",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena vertical irradia:",
+      "option_a": "En sentido vertical",
+      "option_b": "En polarización horizontal",
+      "option_c": "Omnidireccional",
+      "option_d": "A y B",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena de media onda V invertida para 7.100 KHz. tendrá un largo físico aproximado de:",
+      "option_a": "19,95 metros",
+      "option_b": "14,20 metros",
+      "option_c": "7,10 metros",
+      "option_d": "9,97 metros",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un filtro pasa bajo ofrece alta resistencia a señales de:",
+      "option_a": "Baja frecuencia",
+      "option_b": "Alta frecuencia",
+      "option_c": "No tiene ningún efecto sobre las señales",
+      "option_d": "Ofrece alta resistencia a todo tipo de señal",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un filtro para alto ofrece alta resistencia a señales de:",
+      "option_a": "Alta frecuencia",
+      "option_b": "Baja frecuencia",
+      "option_c": "No tiene ningún efecto sobre las señales",
+      "option_d": "Ofrece alta resistencia a todo tipo de señal",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un filtro pasa bajo atenúa las señales:",
+      "option_a": "Altas",
+      "option_b": "Bajas",
+      "option_c": "Altas y bajas",
+      "option_d": "De alta frecuencia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un filtro paso alto atenúa las señales:",
+      "option_a": "Altas",
+      "option_b": "Bajas",
+      "option_c": "Altas y bajas",
+      "option_d": "De alta frecuencia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un filtro pasa banda atenúa las señales:",
+      "option_a": "Altas",
+      "option_b": "Bajas",
+      "option_c": "Altas y bajas",
+      "option_d": "Que están fuera del rango deseado",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "VHF corresponde al siguiente rango de frecuencias en MHz:",
+      "option_a": "3 a 30",
+      "option_b": "30 a 300",
+      "option_c": "300 a 3000",
+      "option_d": "Otra respuesta",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La atmósfera se subdivide en las siguientes capas:",
+      "option_a": "Cielo, aire y estratosfera",
+      "option_b": "Aire, estratosfera y troposfera",
+      "option_c": "Estratosfera, troposfera e ionosfera",
+      "option_d": "Troposfera, ionosfera y fading",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El desvanecimiento o fading en HF es principalmente de origen:",
+      "option_a": "Eléctrico",
+      "option_b": "Terrestre",
+      "option_c": "Marítimo",
+      "option_d": "Ionosférico",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Ionosfera es:",
+      "option_a": "Capas ionizadas superiores de la atmósfera",
+      "option_b": "La propagación de las ondas estacionarias",
+      "option_c": "La resistencia del conductor al paso de la corriente",
+      "option_d": "El proceso de mezclar una señal de audio con la radiofrecuencia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué papel cumple la ionosfera en la propagación de la señal?",
+      "option_a": "Convierte una señal de radiofrecuencia en audiofrecuencia",
+      "option_b": "Actúa como un espejo para las señales recibidas a gran distancia",
+      "option_c": "De oponerse a las señales de AF",
+      "option_d": "Es una etapa intermedia en el receptor",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En la modulación de amplitud, la señal de radiofrecuencia permanente recibe el nombre de:",
+      "option_a": "Señal modulada",
+      "option_b": "Portadora",
+      "option_c": "Elevadora",
+      "option_d": "Reducidora",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena móvil de cuarto de onda para 144 MHz. tendrá un largo físico aproximado de:",
+      "option_a": "98 cm",
+      "option_b": "49 cm",
+      "option_c": "2 metros",
+      "option_d": "1.29 metros",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena móvil de cuarto de onda para 144 MHz. tiene una ganancia en dB de:",
+      "option_a": "3 dB",
+      "option_b": "0.5 dB",
+      "option_c": "1 dB",
+      "option_d": "No tiene ganancia",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Una antena móvil de 5/8 de onda para 144 MHz. Tiene una ganancia aproximada de:",
+      "option_a": "5 dB",
+      "option_b": "3 dB",
+      "option_c": "1 dB",
+      "option_d": "No tiene ganancia",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Una onda que tenga una longitud de 15 metros tendrá una frecuencia aproximada de:",
+      "option_a": "21 MHz",
+      "option_b": "30 MHz",
+      "option_c": "7.5 MHz",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los elementos básicos en una antena direccional son:",
+      "option_a": "Director, Irradiante y Reflector",
+      "option_b": "Irradiante, Reflector y Discriminador",
+      "option_c": "Director, Amplificador y Reflector",
+      "option_d": "Reflector, Irradiante y Amplificador",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué fórmula se usa para calcular la resistencia en un circuito?",
+      "option_a": "Resistencia (R) es igual a voltaje (E) multiplicado por la corriente (I)",
+      "option_b": "Resistencia (R) es igual a voltaje (E) sumado a la corriente (I)",
+      "option_c": "Resistencia (R) es igual a voltaje (E) restado a la corriente (I)",
+      "option_d": "Resistencia (R) es igual a voltaje (E) dividido por la corriente (I)",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué tipo de corriente entrega una fuente de poder típica usada en transceptores?",
+      "option_a": "Pulsante",
+      "option_b": "Alterna",
+      "option_c": "Continua",
+      "option_d": "Monofásica",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué se usa como ayuda para la correcta identificación de la estación en fonía?",
+      "option_a": "Palabras únicas de tu elección",
+      "option_b": "Código Q",
+      "option_c": "Alfabeto fonético internacional",
+      "option_d": "Compresor de audio",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el standard internacional para la letra A?",
+      "option_a": "América",
+      "option_b": "Adam",
+      "option_c": "Alfa",
+      "option_d": "Amplificador",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el standard internacional para la letra B?",
+      "option_a": "Bravo",
+      "option_b": "Bobina",
+      "option_c": "Brasil",
+      "option_d": "Baker",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el standard internacional para la letra D?",
+      "option_a": "Denmark",
+      "option_b": "Decibel",
+      "option_c": "Delta",
+      "option_d": "David",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el standard internacional para la letra E?",
+      "option_a": "Echo",
+      "option_b": "England",
+      "option_c": "España",
+      "option_d": "Ecuador",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la forma correcta de hacer una llamado general en fonia?",
+      "option_a": "Decir CQ cinco veces seguido de “Esta es” y deletrear tu señal de llamada",
+      "option_b": "Decir CQ al menos 10 veces seguido de “Esta es” y deletrear tu señal de llamada",
+      "option_c": "Decir CQ una vez seguido de “Esta es” y deletrear tu señal de llamada tres veces",
+      "option_d": "Decir CQ tres veces seguido de “Esta es” y deletrear tu señal de llamada tres veces",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué es lo que se debe hacer antes de transmitir en cualquier frecuencia?",
+      "option_a": "Asegurarse que la ROE en la línea de trasmisión a la antena es suficientemente alta",
+      "option_b": "Escuchar para asegurarse de que alguien podrá escuchar mi transmisión",
+      "option_c": "Escuchar hasta estar seguro de que no hay nadie más usando la frecuencia",
+      "option_d": "Chequear la resonancia de la antena para esa frecuencia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Si la propagación cambia durante un contacto y te das cuenta de que se incrementa una interferencia proveniente de otra actividad en la misma frecuencia ¿Qué deberías hacer?",
+      "option_a": "Subir la potencia de tu transmisión para sobrepasar la interferencia",
+      "option_b": "Pedirle a las estaciones que interfieren que se cambien de frecuencia ya que tú llegaste primero",
+      "option_c": "Mover tu contacto a otra frecuencia",
+      "option_d": "Reportar la interferencia al regulador",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué es un plan de banda?",
+      "option_a": "Un plan ideado por un Club para utilizar mejor una banda durante un concurso",
+      "option_b": "Una directriz para desviarse de las asignaciones de banda de radioaficionados",
+      "option_c": "Un plan de horarios de operación publicado por SUBTEL",
+      "option_d": "Una guía para utilizar diferente modos de operación dentro de una banda de aficionados",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Antes de transmitir, ¿lo primero que debes hacer es?",
+      "option_a": "Bajar el volumen del receptor",
+      "option_b": "Hacer un anuncio en la frecuencia indicando que deseas hacer una llamada",
+      "option_c": "Escuchar cuidadosamente para asegurarte que no interrumpes un comunicado en curso",
+      "option_d": "Preguntar si la frecuencia está ocupada",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el significado de la señal “CQ”?",
+      "option_a": "Una antena está siendo probada",
+      "option_b": "Sólo la estación “CQ” puede responder",
+      "option_c": "Llame al cuarto de hora",
+      "option_d": "Llamando a cualquier estación",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el significado de la señal “K”?",
+      "option_a": "Todo recibidomente",
+      "option_b": "Fin del Mensaje",
+      "option_c": "Por favor conteste cualquier estación",
+      "option_d": "Transmita la estación que se llamó",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué significa el término “DX”?",
+      "option_a": "Saludos",
+      "option_b": "Estación distante",
+      "option_c": "Adelante",
+      "option_d": "Llamando a cualquier estación",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el significado del término “73”?",
+      "option_a": "Larga distancia",
+      "option_b": "Cariños y besos",
+      "option_c": "Saludos cordiales",
+      "option_d": "Adelante",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Que es un reporte “RST”",
+      "option_a": "Una manera de describir abreviadamente las manchas solares",
+      "option_b": "Una manera de describir abreviadamente las condiciones atmosféricas",
+      "option_c": "Una manera de describir abreviadamente la recepción de una señal",
+      "option_d": "Una manera de describir abreviadamente la potencia del transmitida",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Que significa: “Tu reporte de señal es un 5/7”",
+      "option_a": "Tu señal es legible con bastante dificultad",
+      "option_b": "Tu señal es perfectamente legible, cercana al tono puro",
+      "option_c": "Tu señal es perfectamente legible, con una fuerza moderada",
+      "option_d": "Tu señal es perfectamente legible, pero débil",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Cuál es el significado de “Tu reporte de señal es un 3/3”",
+      "option_a": "La estación está localizada a latitud 33 grados",
+      "option_b": "Tu señal es legible con bastante dificultad y débil fuerza",
+      "option_c": "Tu señal es ilegible y muy débil",
+      "option_d": "El numero serial del contacto es 33",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Cuál es el significado de “Tu reporte es un 5/9 más 20 dB”",
+      "option_a": "Tu señal es perfectamente legible con una fuerza de 20 decibeles sobre S 9",
+      "option_b": "El ancho de banda de tu señal es 20 decibeles por sobre la linealidad",
+      "option_c": "Repita su transmisión en una frecuencia 20 kHz más arriba",
+      "option_d": "La fuerza de tu señal se ha incrementado 100 veces",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Cuál es el significado de “Tu reporte de señal es un 1/ 1”",
+      "option_a": "Tu señal es muy legible y muy fuerte",
+      "option_b": "Tu señal es 11db sobre el S 9",
+      "option_c": "Tu señal es ilegible y casi imperceptible",
+      "option_d": "Tu señal es de primera clase en legibilidad y fuerza",
+      "correct_answer": "C",
+      "explanation": ""
+    }
+  ]
+}

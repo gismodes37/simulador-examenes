@@ -1,0 +1,78 @@
+{
+  "category": "CE",
+  "area": "Reglamento",
+  "questions": [
+    {
+      "text": "¿Cuál es la impedancia característica más común en los sistemas de radioafición?",
+      "option_a": "25 ohm",
+      "option_b": "50 ohm",
+      "option_c": "75 ohm",
+      "option_d": "300 ohm",
+      "correct_answer": "B",
+      "explanation": "La mayoría de los equipos de radioafición utilizan sistemas de 50 ohm."
+    },
+    {
+      "text": "¿Qué organismo regula las telecomunicaciones en Chile?",
+      "option_a": "Ministerio Público",
+      "option_b": "Subsecretaría de Telecomunicaciones (SUBTEL)",
+      "option_c": "Banco Central de Chile",
+      "option_d": "Superintendencia de Electricidad y Combustibles",
+      "correct_answer": "B",
+      "explanation": "SUBTEL es el organismo encargado de regular las telecomunicaciones en Chile."
+    },
+    {
+      "text": "¿Cuál es la frecuencia de la banda de 2 metros?",
+      "option_a": "50 MHz",
+      "option_b": "144 MHz",
+      "option_c": "430 MHz",
+      "option_d": "1296 MHz",
+      "correct_answer": "B",
+      "explanation": "La banda de 2 metros abarca las frecuencias entre 144 y 148 MHz."
+    },
+    {
+      "text": "¿Qué significa la sigla QTH en la telegrafía sin hilo?",
+      "option_a": "Estoy terminando la comunicación",
+      "option_b": "Mi ubicación es",
+      "option_c": "Repite tu mensaje",
+      "option_d": "No copio nada",
+      "correct_answer": "B",
+      "explanation": "QTH indica la posición geográfica o ubicación del estación."
+    },
+    {
+      "text": "¿Cuál es la potencia máxima permitida para un estación de radioafición en la categoría General?",
+      "option_a": "10 vatios",
+      "option_b": "50 vatios",
+      "option_c": "100 vatios",
+      "option_d": "1500 vatios",
+      "correct_answer": "C",
+      "explanation": "La potencia máxima autorizada para la categoría General es de 100 vatios."
+    },
+    {
+      "text": "¿Qué tipo de antena es la más utilizada para comunicaciones en VHF?",
+      "option_a": "Antena de hilo",
+      "option_b": "Antena Yagi",
+      "option_c": "Antena de onda giratoria",
+      "option_d": "Bucle magnético",
+      "correct_answer": "B",
+      "explanation": "La antena Yagi es la más utilizada en VHF por su ganancia direccional."
+    },
+    {
+      "text": "¿Cuál es el código Morse para la letra 'A'?",
+      "option_a": ".-",
+      "option_b": "-...",
+      "option_c": "-.-.",
+      "option_d": "..-.",
+      "correct_answer": "A",
+      "explanation": "La letra A en código Morse es punto-raya (.-)."
+    },
+    {
+      "text": "¿Qué significa la letra 'K' al final de un mensaje en telegrafía sin hilo?",
+      "option_a": "Fin de transmisión",
+      "option_b": "Estoy llamando o invito a transmitir",
+      "option_c": "Error en el mensaje",
+      "option_d": "No copio nada",
+      "correct_answer": "B",
+      "explanation": "La letra K indica que el estación está lista para recibir o invita a otras estaciones a transmitir."
+    }
+  ]
+}

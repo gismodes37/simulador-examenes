@@ -1,0 +1,20 @@
+{
+  "project_name": "simulador-examenes",
+  "description": "Simulador de Exámenes de Radioafición Chile - SUBTEL",
+  "version": "0.1.0",
+  "created_at": "2026-07-26",
+  "stack": {
+    "language": "python",
+    "backend": "django",
+    "database": "postgresql",
+    "frontend": "htmx+bootstrap5",
+    "containerization": "docker"
+  },
+  "context": {
+    "user": "CE2IIG",
+    "purpose": "Exam simulator for Chilean radio amateur licensing (SUBTEL)",
+    "categories": ["CD Aspirante", "CA Novicio", "CE General", "XQ Superior"],
+    "questions": 1022,
+    "deployment": "Proxmox + Cloudflare"
+  }
+}

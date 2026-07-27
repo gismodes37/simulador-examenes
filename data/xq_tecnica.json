@@ -1,0 +1,1248 @@
+{
+  "category": "XQ",
+  "area": "Tecnica",
+  "questions": [
+    {
+      "text": "El circuito de la figura contiene dos fuentes de tensión constante, Va y Vb. ¿Qué potencia suministra cada una de ellas?:",
+      "option_a": "200 W y 500 W",
+      "option_b": "-200 W y 500 W",
+      "option_c": "400 W y 625 W",
+      "option_d": "-400 W y 625 W",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La potencia media disipada en una resistencia de 25 Ohm es 400 W. ¿Cuál será el valor máximo de la intensidad de corriente si ésta es sinusoidal?:",
+      "option_a": "56,6 A",
+      "option_b": "5,66 A",
+      "option_c": "5 A",
+      "option_d": "56 A",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Si el valor máximo de una señal sinusoidal es 20... ¿Cuál es su valor medio?:",
+      "option_a": "127",
+      "option_b": "1.27",
+      "option_c": "12.7",
+      "option_d": "0.127",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El valor de máxima tensión inversa en el diodo es:",
+      "option_a": "0 V",
+      "option_b": "70 V",
+      "option_c": "100 V",
+      "option_d": "141 V",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito LC en serie, conectado a una fuente C.A. de 100 C la suma de los valores absolutos de las caídas de voltaje medidas en la inductancia y en el condensador es:",
+      "option_a": "Igual a 100 V",
+      "option_b": "Menor que 100 V",
+      "option_c": "Mayor que 100 V",
+      "option_d": "Cero V",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La frecuencia de resonancia en un circuito LC, donde la inductancia es de 3 uH y el capacitor de 100 pF, será:",
+      "option_a": "3,5 MHz",
+      "option_b": "7,1 MHz",
+      "option_c": "8,2 MHz",
+      "option_d": "9,19 MHz",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito resonante LC en paralelo, la impedancia en Ohmios a la frecuencia de resonancia es:",
+      "option_a": "Infinito o muy elevada",
+      "option_b": "Igual a la frecuencia",
+      "option_c": "Igual a la LC",
+      "option_d": "Cero",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El rendimiento de un transformador de poder es:",
+      "option_a": "Igual a su relación de vueltas",
+      "option_b": "Menor del 50%",
+      "option_c": "Un 85% a un 95% dependiendo del tipo de núcleo",
+      "option_d": "100%",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un transformador de 220 V, con un enrollado de 120 espiras en el primario, tiene un secundario que entrega 240 V. ¿Cuál será la corriente del secundario con una carga de 860 Ohm?:",
+      "option_a": "2,79 A",
+      "option_b": "0,279 A",
+      "option_c": "1,39 A",
+      "option_d": "9,139 A",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué potencia entregará el secundario de un transformador que suministra la tensión de 18 voltios a 5,5 amperios?:",
+      "option_a": "99 W",
+      "option_b": "108,9 W",
+      "option_c": "110 W",
+      "option_d": "220 W",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La razón de impedancias de un transformador depende de:",
+      "option_a": "La tensión aplicada al primario",
+      "option_b": "La calidad del núcleo de fierro",
+      "option_c": "El diámetro de las espiras",
+      "option_d": "La relación entre las espiras del primario y del secundario",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué intensidad máxima admitirá una resistencia de 2,2 K y 1/2 W de disipación?:",
+      "option_a": "0,15 A",
+      "option_b": "1,5 A",
+      "option_c": "0,015 A",
+      "option_d": "0,0015 A",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Si la razón de impedancia de un transformador es 100:1. ¿Cuál es la correspondiente relación de vueltas?:",
+      "option_a": "1:1",
+      "option_b": "10:1",
+      "option_c": "100:1",
+      "option_d": "1000:1",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuántos grados hay en el ciclo o período de una señal sinusoidal?:",
+      "option_a": "90°",
+      "option_b": "180°",
+      "option_c": "360°",
+      "option_d": "720°",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Si un circuito serie tiene una resistencia de 5 Ohmios y una reactancia de 12 Ohm. ¿Cuál es su impedancia?:",
+      "option_a": "- 4,6 Ohm",
+      "option_b": "- 7 Ohm",
+      "option_c": "- 13 Ohm",
+      "option_d": "60 Ohm",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes afirmaciones es falsa?:",
+      "option_a": "La fase se mide en grados",
+      "option_b": "La impedancia se mide en Ohmios",
+      "option_c": "La potencia reactiva se mide en vatios",
+      "option_d": "La f.e.m. se mide en voltios",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el método correcto para aumentar la inductancia de una bobina?:",
+      "option_a": "Disminuir el voltaje que se aplica a la bobina",
+      "option_b": "Aumentar el Q de la bobina",
+      "option_c": "Aumentar la frecuencia de la C.A. que se aplica a la bobina",
+      "option_d": "Añadirle vueltas a la bobina",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿ Qué intensidad indicará el amperímetro conectado en serie del circuito, formado por una pila de 4,5 V y 0,3 Ohm de resistencia interna y una resistencia de carga de 11 Ohm ?:",
+      "option_a": "39 A",
+      "option_b": "3,9 A",
+      "option_c": "0,3982 A",
+      "option_d": "0,039 A",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Una pila de 1,5 V suministra una corriente de 20 miliamperes a través de una carga total de 74,8 Ohm. ¿Cuál es el valor de su resistencia interna?:",
+      "option_a": "- 0,2 Ohm",
+      "option_b": "- 2,20 Ohm",
+      "option_c": "- 2 Ohm",
+      "option_d": "0 Ohm",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se conecta un divisor de tensión, con tomas, a una fuente de tensión de 220 V para que suministre corriente de:",
+      "option_a": "70, 50 y 100 Ohm",
+      "option_b": "700. 714 y 200 Ohm",
+      "option_c": "220, 150 y 100 Ohm",
+      "option_d": "700, 500 y 2000 Ohm",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el rendimiento expresado en %, que tiene una línea de transmisión con una pérdida de 2 decibeles?:",
+      "option_a": "63 %",
+      "option_b": "52%",
+      "option_c": "20%",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La potencia de salida de un amplificador se aumenta de 2 a 5 vatios.",
+      "option_a": "- 1 dB",
+      "option_b": "- 2 dB",
+      "option_c": "- 3 dB",
+      "option_d": "4 dB",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Si la ganancia de potencia en un sistema de antena es de 12,6. ¿Cuál es su ganancia en decibeles?:",
+      "option_a": "12 dB",
+      "option_b": "11,6 dB",
+      "option_c": "11 dB",
+      "option_d": "12 dB",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La intensidad de campo de una señal que se desea captar en un receptor es de 20 V/m y la de la señal de interferencia es de 9 V/m. ¿Cuál es la relación señal/interferencia en decibeles?:",
+      "option_a": "11 dB",
+      "option_b": "29 dB",
+      "option_c": "0 dB",
+      "option_d": "7 dB",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "En un circuito resonante paralelo debe emplearse para sintonizar el circuito de placa de un amplificador de radio-frecuencia. La bobina tiene una inductancia de 100 uH y resistencia de 5 Ohm. ¿Cuál es el valor de la capacidad necesaria para sintonizar a una frecuencia de 1 MHz?:",
+      "option_a": "128 pF",
+      "option_b": "253 pF",
+      "option_c": "315 pF",
+      "option_d": "622 pF",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se conecta en serie una bobina a un condensador a través de una alimentación de 100 V y 1000 Hz. Se modifica la capacidad, hasta alcanzar una intensidad máxima de 200 mA en el circuito: la tensión entre placas del condensador medida con un voltímetro a válvula es 150 V eficaces. ¿Cuál es la resistencia y la inductancia de la bobina así como la capacidad del condensador suponiendo despreciable la resistencia de este último?:",
+      "option_a": "R= 500 ,L= 500 H, C=0,2 uF",
+      "option_b": "R= 500 ,L= 0,12 H, C=2,12 pF",
+      "option_c": "R= 500 ,L= 0,12 H, C=0,2 uF",
+      "option_d": "R= 0 ,L= 0,12 H, C=0,2 uF",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el poder de multiplicación de un shunt de amperímetro cuando la resistencia del instrumento es 2000 Ohm y la resistencia shunt es de 500 Ohm?:",
+      "option_a": "5 veces",
+      "option_b": "3 veces",
+      "option_c": "2 veces",
+      "option_d": "Despreciable",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un voltímetro con escala de 0-40 V, tiene una sensibilidad de 2500 Ohm/V y de la deflexión máxima de escala, con una corriente de 0,40 mA. ¿Qué resistencia se necesitará en serie para leer 100 V en la escala total?:",
+      "option_a": "100 Kohm",
+      "option_b": "200 Kohm",
+      "option_c": "150 Kohm",
+      "option_d": "Debe emplearse otro instrumento",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Al aumentar la frecuencia de la corriente alterna, ésta tiende a circular:",
+      "option_a": "Por la superficie de los conductores",
+      "option_b": "Por el centro de los conductores",
+      "option_c": "Por conductores coaxiales",
+      "option_d": "Por toda la sección de los conductores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Teóricamente en una línea coaxial perfectamente adaptada, una señal de radiofrecuencia tiende a circular:",
+      "option_a": "Sólo por la malla",
+      "option_b": "Sólo por el conductor central",
+      "option_c": "En partes iguales, por el conductor central y la malla",
+      "option_d": "Lejos del dieléctrico. PREGUNTAS DE ELECTRONICA LICENCIA CATEGORÍA SUPERIOR",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El diodo PIN (P-insulator - N diode) cuando es polarizado directamente y trabaja en microondas se comporta como:",
+      "option_a": "Una baja capacidad",
+      "option_b": "Una impedancia controlada por la tensión aplicada a sus Bornes",
+      "option_c": "Como resistencia pura",
+      "option_d": "A y C",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los ductos se forman en la:",
+      "option_a": "Ionosfera",
+      "option_b": "Estratosfera",
+      "option_c": "Troposfera",
+      "option_d": "Exosfera",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La propagación troposférica es resultado de:",
+      "option_a": "La capa ionizada de la atmósfera",
+      "option_b": "Irregularidades del terreno por donde pasan las señales",
+      "option_c": "Cambios rápidos o agudos de la densidad del aire",
+      "option_d": "Radiaciones ultravioletas desde el Sol",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de los siguientes métodos de modulación es considerado de alto nivel?:",
+      "option_a": "Modulación en grilla",
+      "option_b": "Modulación en placa",
+      "option_c": "Modulación en pantalla",
+      "option_d": "Modulación en frecuencia",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un tono de un 1 V y 1 KHz de frecuencia, alimentando la entrada de un modulador de fase produce una desviación de 6 KHz. Un tono de 0,5 V y 3 KHz produce una desviación de:",
+      "option_a": "1 KHz",
+      "option_b": "3 KHz",
+      "option_c": "6 KHz",
+      "option_d": "9 KHz",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El factor de velocidad en líneas coaxiales con dieléctrico sólido se encuentra entre:",
+      "option_a": "0,40 y 0,65",
+      "option_b": "0,65 y 0,80",
+      "option_c": "0,65 y 1,00",
+      "option_d": "1,00 y 2,00",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La transmisión de una señal de televisión de barrido lento requiere:",
+      "option_a": "De un ancho de banda de 20 KHz para operación satisfactoria",
+      "option_b": "Que tal transmisión sea limitada a una emisión A5",
+      "option_c": "Un transmisor con 100 W mínimos de salida",
+      "option_d": "De un ancho de banda similar a la fonía, en el servicio de radioaficionados",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se desea sintonizar a partir de 3,5 MHz un circuito paralelo compuesto por una inductancia de 10 uH y un condensador variable. ¿Cuál debe ser el valor mínimo para especificar el capacitor?:",
+      "option_a": "50 pF",
+      "option_b": "100 pF",
+      "option_c": "150 pF",
+      "option_d": "250 pF",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un condensador de 0,01 uF se encuentra conectado en paralelo con una resistencia de 2 Mohm. Si el capacitor se ha cargado inicialmente a 20 V. ¿Cuánto tiempo se demorará en descargarse a 1 V?:",
+      "option_a": "0,06 s",
+      "option_b": "0,2 s",
+      "option_c": "2 s",
+      "option_d": "200 s",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes afirmaciones es incorrecta?:",
+      "option_a": "Se debe usar cable no blindado para conectar un transmisor al filtro pasa bajos",
+      "option_b": "Un alambre de cualquier longitud alimentado a un extremo puede acoplarse a la salida desbalanceada de 50 ohmios mediante una red L",
+      "option_c": "La radiación de armónicas desde una antena puede reducirse con un acoplador de antena",
+      "option_d": "Un balun de banda ancha puede adaptar una carga de 200 ohm a un trasmisor de 50 ohm",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la impedancia del siguiente circuito a una frecuencia de 10 Hz.?:",
+      "option_a": "- 0,7 Ohm",
+      "option_b": "- 1 Ohm",
+      "option_c": "- 1,4 Ohm",
+      "option_d": "1,7 Ohm",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el ángulo de desfase de la corriente con respecto al voltaje del siguiente circuito? Suponga un voltaje de entrada de 120 V, 10 Hz:",
+      "option_a": "90°",
+      "option_b": "67°",
+      "option_c": "30°",
+      "option_d": "45°",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Su antena vertical tiene una impedancia en el punto de alimentación de 30 ohm resistiva. ¿Cuál es la relación de onda estacionaria si Ud. alimenta su antena con una línea de 50 ohm?:",
+      "option_a": "0,6: 1",
+      "option_b": "1,29: 1",
+      "option_c": "1,67: 1",
+      "option_d": "2,78: 1",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es aproximadamente el Q del siguiente circuito a la frecuencia de resonancia si la resistencia en serie de cada elemento es 100 Ohm?:",
+      "option_a": "2,3",
+      "option_b": "4,6",
+      "option_c": "9,2",
+      "option_d": "21,0",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál será el voltaje aproximado de salida (Vo) si RL se cambiara a 500 ohmios?:",
+      "option_a": "2,5 V",
+      "option_b": "5 V",
+      "option_c": "10 V",
+      "option_d": "20 V",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un amplificador de RF clase C se va a operar en las siguientes condiciones: Voltaje de placa: 600 V. Voltaje de pantalla: 200 V. Voltaje de grilla: 50 V. Voltaje de placa: 150 mA. Voltaje de pantalla: 10 mA. Voltaje de grilla: 1 mA. ¿Cuál será aproximadamente la impedancia de carga?:",
+      "option_a": "- 30 Ohm",
+      "option_b": "- 300 Ohm",
+      "option_c": "- 3000 Ohm",
+      "option_d": "30.000 Ohm",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El siguiente diagrama corresponde a:",
+      "option_a": "Amplificador tetrodo",
+      "option_b": "Inversor de fase",
+      "option_c": "Oscilador Pierce",
+      "option_d": "Amplificador de corriente continua",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un transmisor de 427 MHz. usa un tanque coaxial de baja pérdida en el circuito de placa del amplificador final. Suponiendo que el amplificador final se modula en grilla con una señal de TV de 5 MHz. ¿Cuál sería el mejor Q del circuito tanque cargado?:",
+      "option_a": "85",
+      "option_b": "155",
+      "option_c": "170",
+      "option_d": "340",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de los siguientes elementos no debería utilizarse como parte del sistema de control de una Repetidora?:",
+      "option_a": "Temporizador de transmisión",
+      "option_b": "Relé operando por portadora",
+      "option_c": "Identificador telegráfico",
+      "option_d": "Red de - énfasis",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Si el transistor de la figura tiene una ganancia de corriente igual a 50 y las resistencias de base y colector son de 2 K y 1 K respectivamente. ¿Cuál es la ganancia de voltaje del circuito?:",
+      "option_a": "25",
+      "option_b": "50",
+      "option_c": "100",
+      "option_d": "200",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de los siguientes elementos sería más apropiado para ser usado en un OFV de estado sólido a sintonía remota?:",
+      "option_a": "Diodo de capacidad variable",
+      "option_b": "Vidicon",
+      "option_c": "Rectificador controlado de silicio",
+      "option_d": "Varactor",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los diodos de punta de contactos se usan frecuentemente como:",
+      "option_a": "Diodo de portadora viva",
+      "option_b": "Rectificador de alto voltaje",
+      "option_c": "Rectificador de alta corriente",
+      "option_d": "Mezclador de UHF",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El dispositivo que convierte una imagen luminosa en una señal eléctrica es:",
+      "option_a": "El tubo de rayos catódicos",
+      "option_b": "El diodo emisor de luz",
+      "option_c": "El vidicon",
+      "option_d": "El triac",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el mecanismo más probable de propagación para una señal de 50 MHz. sobre una trayectoria de 2000 Km. durante los períodos de mínima actividad solar?:",
+      "option_a": "Onda terrestre extendida",
+      "option_b": "Difracción bordes de cuchillos",
+      "option_c": "Difracción esporádica en la capa E",
+      "option_d": "Refracción en la capa F2",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Se puede usar un osciloscopio para:",
+      "option_a": "Comprobar la linealidad de un transmisor de BLU",
+      "option_b": "Asegurarse que todas las radiaciones espúreas de un transmisor cumplan con las normas como elemento integrante del sistema",
+      "option_c": "Medida del período del voltaje de pico a pico de una señal de audiofrecuencia",
+      "option_d": "A y C",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Dos señales que tienen la frecuencia de 144.098 y 144.174 MHz se aplican a la entrada de un receptor que está sintonizando en la banda de 2 metros. Si la etapa de entrada presenta alta distorsión por intermodulación de tercer orden, el receptor producirá salida cuando se sintoniza en:",
+      "option_a": "144.098 y 144.174 MHz",
+      "option_b": "144.022 y 144.098; 144.174 y 144.250 MHz",
+      "option_c": "144.090; 144.098; 144.174 y 144.182 MHz",
+      "option_d": "144.098; 144.174; 145.098 y 145.174 MHz",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La eficiencia de una antena:",
+      "option_a": "Depende del largo del cable de alimentación",
+      "option_b": "Es la relación de la potencia irradiada y la potencia entregada en la línea de alimentación",
+      "option_c": "Es importante solamente para la recepción",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El factor de velocidad de una línea de transmisión:",
+      "option_a": "Es la relación entre la longitud magnética y la longitud eléctrica",
+      "option_b": "Es el recíproco de la raíz cuadrada de la constante dieléctrica del aire",
+      "option_c": "Es la relación entre la velocidad de la onda de RF en la línea y la velocidad de la luz en el espacio libre",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La resistencia de radiación de un sistema de antena:",
+      "option_a": "Es la relación entre voltaje y la corriente en el punto de alimentación si el sistema es resonante y no existen pérdidas",
+      "option_b": "Es una medida de la habilidad del sistema para soportar largas exposiciones de los componentes ultravioletas de la luz solar",
+      "option_c": "Es siempre independientes de la altura de un radiador horizontal sobre la tierra",
+      "option_d": "Debería ser cero para una máxima eficiencia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un conjunto Yagi de seis elementos montado en un botalón único debería tener típicamente:",
+      "option_a": "4 elementos excitados en fase y dos elementos \"fantasmas\" para absorber la energía emitida en direcciones no deseadas",
+      "option_b": "Un dipolo excitado de media onda, un reflector y cuatro directores",
+      "option_c": "12 dB de ganancia sobre una antena rómbica de referencia",
+      "option_d": "Un área de resistencia al viento de 6 M2",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es el propósito de las trampas en una antena multibanda?:",
+      "option_a": "Establecer la resonancia en cada una de las bandas deseadas",
+      "option_b": "Permitir una longitud mayor en cada elemento y así mejorar la eficiencia",
+      "option_c": "Prevenir la radiación de armonías y otras emisiones espúreas",
+      "option_d": "Amplificar la eficiencia de recepción previniendo cualquier reradiación de los frentes de onda",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Describa la distribución de tensión y corriente en una antena vertical de 1/4 de onda alimentada sobre un plano de tierra:",
+      "option_a": "La corriente es máxima en un punto de alimentación y mínima en la punta",
+      "option_b": "El voltaje es mínimo en la base y máximo en el extremo libre",
+      "option_c": "El voltaje y la corriente son constantes a lo largo del radiador",
+      "option_d": "A y B",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "De las siguientes antenas. ¿Cuál es la que representa el compromiso más razonable entre el rendimiento electromagnético y la factibilidad mecánica para la operación móvil de 80 metros?:",
+      "option_a": "Una varilla de 1 metro con un sombrero capacitivo",
+      "option_b": "Una varilla de 2,40 metros con carga en el centro o en la base",
+      "option_c": "Un dipolo helicoidal",
+      "option_d": "Una antena cónica",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En amplitud modulada:",
+      "option_a": "La amplitud de la portadora no varía",
+      "option_b": "La información está contenida en las bandas laterales",
+      "option_c": "La envolvente de la salida de RF toma la forma de la onda moduladora",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué tipo de amplificador es adecuado para aumentar la amplitud de una señal AM?:",
+      "option_a": "Un amplificador lineal",
+      "option_b": "Un amplificador clase C",
+      "option_c": "Un amplificador saturado",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La superficie de la portadora de una señal de banda lateral generada por el método de fase se realiza a través de:",
+      "option_a": "El modulador balanceado",
+      "option_b": "La red de pre-énfasis de audio",
+      "option_c": "La linealidad de frecuencia en la etapa multiplicadora",
+      "option_d": "El zumbido residual de la fuente de poder",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Se puede demodular una señal de BLU mediante:",
+      "option_a": "Un detector de envolvente",
+      "option_b": "Un detector de fase",
+      "option_c": "Un detector de producto",
+      "option_d": "Un detector de metal",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué circuito se debe utilizar en un transmisor o receptor para heterodinar una señal y llevarla a otra frecuencia para un determinado proceso?:",
+      "option_a": "Un amplificador de RF",
+      "option_b": "Un amplificador de FI",
+      "option_c": "Un amplificador amortiguador",
+      "option_d": "Un mezclador",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿En qué parte de un receptor superheterodino se produce la mayor parte de la ganancia y de la selectividad?:",
+      "option_a": "El oscilador de frecuencia de batido",
+      "option_b": "El amplificador de FI",
+      "option_c": "El supresor de ruido",
+      "option_d": "El amplificador de RF",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de los siguientes componentes es más apropiado para ser usado en el circuito del control de ganancia del receptor?:",
+      "option_a": "Diodo de portadora viva",
+      "option_b": "El diodo PIN",
+      "option_c": "El diodo Zener",
+      "option_d": "El diodo Varactor",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué tienen en común los diodos túnel, los transistores monojunturas y lámparas neón?:",
+      "option_a": "Que pueden ser usados en circuitos de osciladores de relajación",
+      "option_b": "Que deben usarse con polarización base-colector con polarización negativa",
+      "option_c": "Nada",
+      "option_d": "Que se pueden usar como lámparas pilotos",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes es una característica de los amplificadores clase C?:",
+      "option_a": "Se pueden usar como multiplicadores de frecuencia",
+      "option_b": "Se pueden usar para amplificar señales de FM",
+      "option_c": "Conducen la corriente en una pequeña parte del ciclo de excitación",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué determina el color generado por un diodo emisor de luz?:",
+      "option_a": "El tipo de material de semiconductor empleado",
+      "option_b": "La frecuencia multiplexora del sistema",
+      "option_c": "El voltaje de polarización inversa",
+      "option_d": "La corriente de polarización directa",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cómo es el voltaje de pico de una onda sinusoidal en relación con su valor efectivo (RMS)?:",
+      "option_a": "Pico = RMS x √2",
+      "option_b": "Pico = RMS x 1/ √2",
+      "option_c": "Pico = √3/RMS",
+      "option_d": "- Pico = RMS + 𝜋/RMS + 2 𝜋 /RMS + 3 𝜋 /RMS +",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Dos señales de telegrafía, independiente entre sí se aplican a una misma resistencia de carga. ¿Cuál es la potencia PEP total si cada tono tiene una potencia media de 200 W? ¿Cuál es la potencia media disipada por la resistencia?:",
+      "option_a": "- PEP = 800 W, promedio = 100 W",
+      "option_b": "- PEP = 400 W, promedio = 400 W",
+      "option_c": "- PEP = 200 W, promedio = 100 W",
+      "option_d": "- PEP = 800 W, promedio = 400 W",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se utiliza un diodo Zener para establecer un voltaje de referencia en la base de un transistor de silicio, seguidor emisor. ¿Qué voltaje Zener debería elegirse para tener 13,2 V en el emisor?:",
+      "option_a": "13,2 V",
+      "option_b": "12,6 V",
+      "option_c": "13,8 V",
+      "option_d": "14,9 V",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la impedancia de entrada a baja frecuencia del circuito de la figura?:",
+      "option_a": "- 14 Ohm",
+      "option_b": "- 20 KOhm",
+      "option_c": "- 1831 Ohm",
+      "option_d": "1479 Ohm",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuánto tiempo puede almacenarse una carga electroestática en un capacitor ideal?:",
+      "option_a": "Indefinidamente",
+      "option_b": "Un segundo por volt y 1 farad de energía almacenada",
+      "option_c": "Un segundo por coulomb de carga",
+      "option_d": "Un segundo por Amper de corriente de carga",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la potencia irradiada efectiva en el lóbulo principal de la antena que se muestra en la figura?:",
+      "option_a": "90 W",
+      "option_b": "900 W",
+      "option_c": "72 W",
+      "option_d": "720 W",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se puede reemplazar la red que alimenta la carga de la figura por:",
+      "option_a": "Una batería de 5 V en serie con un resistor 42 Ohm",
+      "option_b": "Una batería de 9 V en serie con un resistor 24 Ohm",
+      "option_c": "Con una batería de 3,7 V en serie con un resistor de 116 Ohm",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes es la consideración más importante para elegir un aislador para usar en una antena de VHF?:",
+      "option_a": "Firmeza del dieléctrico",
+      "option_b": "Pérdida del dieléctrico",
+      "option_c": "Resistencia a altas temperaturas",
+      "option_d": "Factor de velocidad",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes antenas de uso común de VHF y UHF es Omnidireccional?:",
+      "option_a": "Vertical",
+      "option_b": "Reflector parabólico",
+      "option_c": "Yagui",
+      "option_d": "Logarítmica periódica",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Por qué debe evitarse en general la radiación de la línea de transmisión?:",
+      "option_a": "Puede modificar el diagrama de radiación de la antema",
+      "option_b": "Puede reducir la ganancia total del sistema",
+      "option_c": "Puede causar un aumento de la interferencia a los sistemas caseros de entretenimiento si estos se encuentran cerca de la línea de alimentación",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuáles son las tres operaciones lógicas en electrónica digital?:",
+      "option_a": "Encendido, apagado y no importa",
+      "option_b": "Y, 0 y NO",
+      "option_c": "Y, NO y puede ser",
+      "option_d": "Suma, multiplicación e inversión",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El dibujo de la figura es:",
+      "option_a": "Una compuerta NO-Y (NAND)",
+      "option_b": "Un inversor",
+      "option_c": "Un registro de almacenamiento",
+      "option_d": "Una compuerta 0",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué ganancia de voltaje puede esperarse del siguiente amplificador operacional?:",
+      "option_a": "-1",
+      "option_b": "5",
+      "option_c": "10",
+      "option_d": "50",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de los siguientes no es una característica de los amplificadores operacionales?:",
+      "option_a": "Baja impedancia de salida",
+      "option_b": "Alta ganancia de voltaje",
+      "option_c": "Baja impedancia de entrada",
+      "option_d": "La ganancia es fijada por el elemento de realimentación",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Identifique el circuito que se muestra en la figura:",
+      "option_a": "Amplificador inversor",
+      "option_b": "Amplificador no inversor",
+      "option_c": "Amplificador diferencial",
+      "option_d": "Filtro activo",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la estructura básica de una celda solar?:",
+      "option_a": "Interconexión eléctrica de muchos transistores",
+      "option_b": "Junturas PN de gran área",
+      "option_c": "Una mezcla de fósforo y boro",
+      "option_d": "Fotosíntesis",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "En un receptor la figura de ruido es la medida de:",
+      "option_a": "La habilidad para funcionar en presencia de ruido y de señales interferentes",
+      "option_b": "La ganancia de FI en relación al ruido",
+      "option_c": "La ganancia de RF en relación al ruido",
+      "option_d": "El ruido adicional que introduce una etapa de RF",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Para qué se usa un radiador isotrópico?:",
+      "option_a": "Como una antena efectiva en 80 metros",
+      "option_b": "Para comparar el comportamiento de otras antenas",
+      "option_c": "Como una antena de VHF y UHF de banda ancha",
+      "option_d": "Como elemento excitado de una antena Yagi",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El analizador de espectro se utiliza para visualizar señales en el:",
+      "option_a": "Dominio de tiempo",
+      "option_b": "Dominio de la amplitud",
+      "option_c": "Dominio de VHF",
+      "option_d": "Dominio de la frecuencia",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La impedancia característica de una línea de transmisión formada por conductores paralelos con aislación de aire depende fundamentalmente de:",
+      "option_a": "El tipo de aislador que hay entre los conductores",
+      "option_b": "Del diámetro de los conductores y su espaciamiento",
+      "option_c": "De la capacitancia de la línea",
+      "option_d": "De la inductancia de la línea",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes condiciones debería crear una ROE 1:1?:",
+      "option_a": "Una entrada de 1 KW de potencia en el transmisor",
+      "option_b": "Una línea de transmisión exactamente igual a media onda",
+      "option_c": "Las impedancias de la línea de transmisión y la antena son iguales",
+      "option_d": "La línea de transmisión se instala paralela a tierra",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La razón entre la potencia total irradiada y el cuadrado de la corriente de alimentación de una antena es:",
+      "option_a": "La resistencia de radiación",
+      "option_b": "La ganancia de potencia",
+      "option_c": "La densidad de potencia",
+      "option_d": "La fuerza del campo",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes es una característica del dipolo de media onda?:",
+      "option_a": "Irradia igualmente bien en todas las direcciones",
+      "option_b": "Requiere el uso de una tierra artificial",
+      "option_c": "Cuando se instala a media onda sobre el suelo, presenta excelente directividad",
+      "option_d": "Es la más común y práctica de las antenas para usar en la banda de 80 y 40 metros",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Comunicaciones mundiales vía ionosfera se producen principalmente en la siguiente gama del espectro:",
+      "option_a": "- HF",
+      "option_b": "- VHF",
+      "option_c": "- UHF",
+      "option_d": "Microondas",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de las siguientes afirmaciones caracteriza la propagación de las ondas de radio en la banda de 20 metros, durante los períodos de máxima actividad solar?:",
+      "option_a": "La propagación ionosférica durante ese período es virtualmente desconocida",
+      "option_b": "La banda está solamente \"muerte\" para comunicaciones a larga distancia cuando se produce el máximo del ciclo solar",
+      "option_c": "Buenas comunicaciones mundiales durante casi 24 horas",
+      "option_d": "Comunicación a todo el mundo durante el día, pero casi nada durante la noche",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un alto número de manchas solares se debería asociar con alguno de los siguientes factores:",
+      "option_a": "Un alto índice de flujo solar",
+      "option_b": "Malas condiciones de propagación en banda de 20 metros",
+      "option_c": "Durante las horas del día la capa F de la ionosfera queda como monocapa",
+      "option_d": "Buena condición de comunicación para todo el mundo en la banda de 80 metros",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un material de tipo \"N\" posee:",
+      "option_a": "Solamente neutrones",
+      "option_b": "Igual número de electrones y lagunas",
+      "option_c": "Electrones en exceso",
+      "option_d": "Lagunas en exceso",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Los portadores mayoritarios en un material tipo \"p\" son:",
+      "option_a": "Las lagunas",
+      "option_b": "Los electrones",
+      "option_c": "Los neutrones",
+      "option_d": "Los fotones",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un transistor en configuración base común representa:",
+      "option_a": "Alta impedancia de entrada",
+      "option_b": "Alta ganancia de tensión",
+      "option_c": "Baja impedancia de salida",
+      "option_d": "Inversión de fase",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Para que un transistor funciones como un amplificador, la juntura emisor- base debe ser polarizada:",
+      "option_a": "En sentido inverso",
+      "option_b": "En sentido directo",
+      "option_c": "Con Vbe menor que 0,2 V",
+      "option_d": "Con tensión alterna",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Al ser aumentada la tensión entre base-emisor de un transistor polarizado como amplificador, ocurre:",
+      "option_a": "Aumento de tensión entre colector y emisor",
+      "option_b": "Disminución de la tensión entre colector y emisor",
+      "option_c": "Disminución de la corriente entre base y emisor",
+      "option_d": "Disminución de la corriente entre colector y emisor",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Para lograr máxima transferencia de potencia de un etapa amplificadora a otra es necesario que:",
+      "option_a": "La impedancia de entrada del primero y la salida del segundo sean iguales",
+      "option_b": "La impedancia de entrada del segundo y la salida del primero sean iguales",
+      "option_c": "La impedancia de salida del primero y la salida del segundo sean iguales",
+      "option_d": "Entre ambos exista un preamplificador",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El acoplamiento directo entre etapas amplificadoras a transistores:",
+      "option_a": "Es usado siempre que haya gran número de etapas",
+      "option_b": "Presenta excelente rendimiento por cantidad de etapas",
+      "option_c": "Es posible cuando los transistores son complementarios",
+      "option_d": "Sólo es posible con transistores NPN",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El circuito de la figura es un modulador balanceado serie. Entre los terminales A y B aparece:",
+      "option_a": "La segunda armónica de RF",
+      "option_b": "La parte positiva de la señal de AF",
+      "option_c": "La RF modulada con portadora presente",
+      "option_d": "La RF modulada con portadora suprimida",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La intensidad de campo eléctrico se mide en:",
+      "option_a": "- dB",
+      "option_b": "- Watt",
+      "option_c": "- Volt",
+      "option_d": "Volt/Metro",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La velocidad de propagación de una onda electromagnética por un cable coaxial depende de:",
+      "option_a": "Sólo del diámetro del conductor interno",
+      "option_b": "Sólo de la naturaleza del material aislante interior",
+      "option_c": "Sólo del diámetro del conductor externo o malla",
+      "option_d": "Tanto del diámetro del conductor interno como del extremo",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El diagrama de radiación de una antena móvil debe ser:",
+      "option_a": "Direccional",
+      "option_b": "Bidireccional",
+      "option_c": "Cardioide",
+      "option_d": "Omnidireccional",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "En un amplificador de clase A la corriente en la válvula:",
+      "option_a": "Circula todo el tiempo",
+      "option_b": "Circula sólo durante los picos negativos de la señal de audio",
+      "option_c": "Circula sólo durante los picos positivos de la señal de audio",
+      "option_d": "Simplemente no circula",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál es la relación de espiras de un transformador que se va a utilizar entre una etapa de salida que tiene una resistencia de carga medida de 5000 ohm y una resistencia de carga de salida de 20 ohm?:",
+      "option_a": "250: 1",
+      "option_b": "16: 1",
+      "option_c": "5000: 20",
+      "option_d": "256: 1",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un rectificador de 100 V en vacío y un ampere como carga máxima alimenta un amplificador que toma 500 mA a 750 voltios a través de una resistencia en serie. La regulación de tensión del rectificador sólo es del 15 por ciento de plena carga a ninguna. ¿Cuál es la resistencia de serie requerida y el rendimiento en relación a la potencia suministrada por la fuente?:",
+      "option_a": "350 Ohm y 81%",
+      "option_b": "500 Ohm y 56%",
+      "option_c": "350 Ohm y 56%",
+      "option_d": "500 Ohm y 66%",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué porcentaje de aumento de corriente irradiada tendrá lugar con un transmisor modulado en amplitud cuando la profundidad de modulación se aumenta del 75 al 100 por ciento?:",
+      "option_a": "33 %",
+      "option_b": "6 %",
+      "option_c": "8 %",
+      "option_d": "12,5%",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un receptor de comunicaciones necesita una entrada de 10 uV a través de 100 K para producir una potencia de salida de 2 mV en una línea de 600 ohmios. ¿Cuál es la potencia de salida en miliwatts para un nivel de referencia de entrada de 1 uV y la ganancia total en decibeles?:",
+      "option_a": "0,02 Mw. y 115 dB",
+      "option_b": "0,01 Mw. y 118 dB",
+      "option_c": "0,02 Mw. y 123 dB",
+      "option_d": "0,01 Mw. y 123 dB",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La medida de la salida de potencia de un transmisor modulado en amplitud es 20 KW cuando la portadora está sin modular y de 28 KW cuando está modulada por un tono uniforme sinusoidal. ¿Cuál es la potencia total en las bandas laterales y el porcentaje de modulación?:",
+      "option_a": "8 KW y 89%",
+      "option_b": "10 KW y 88%",
+      "option_c": "8 KW y 40%",
+      "option_d": "10 KW y 44%",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Un par telefónico conecta un receptor y un amplificador de audio a un transmisor distante 33 Km. El nivel medio de salida del receptor es 1 Mw., y la pérdida en la línea es 0,6 dB/Km. ¿Cuál es la ganancia que debe dar el amplificador para elevar el nivel en el extremo alejado a 20 Mw?:",
+      "option_a": "30 dB",
+      "option_b": "33 dB",
+      "option_c": "38 dB",
+      "option_d": "40 dB",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El circuito AGC en un receptor superheterodino:",
+      "option_a": "Reduce la capacitancia ánodo de la reja",
+      "option_b": "Disminuye la ganancia",
+      "option_c": "Aumenta la ganancia",
+      "option_d": "Mantiene la salida constante",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La habilidad del receptor para tomar señales débiles es la medida de su:",
+      "option_a": "Selectividad",
+      "option_b": "Conductividad",
+      "option_c": "Amplitud de banda",
+      "option_d": "Sensibilidad",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "En un receptor de amplitud modulada (AM). ¿Qué etapa recupera la señal de audio desde la señal recibida?:",
+      "option_a": "La etapa de radio frecuencia",
+      "option_b": "La etapa de audio",
+      "option_c": "La etapa de frecuencia intermedia",
+      "option_d": "La etapa detectora",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Un Grid Dip (medidor de caída de reja) es usado para:",
+      "option_a": "Medir la resistencia de un resistor",
+      "option_b": "Medir la inductancia de un inductor",
+      "option_c": "Medir la frecuencia resonante de un circuito L/C",
+      "option_d": "Medir la inductancia mutua",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un medidor indica 230 voltios CA. El valor máximo es aproximadamente igual",
+      "option_a": "650 V",
+      "option_b": "460 V",
+      "option_c": "230 V",
+      "option_d": "325 V",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuáles de las siguientes etapas de un receptor superheterodino son sintonizadas simultáneamente a la misma frecuencia?:",
+      "option_a": "Etapas RF e IF",
+      "option_b": "RF y mezcladora",
+      "option_c": "IF y oscilador local",
+      "option_d": "RF y oscilador local",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "¿Cuál de estas sería una indicación más o menos precisa de la sensibilidad de un receptor?:",
+      "option_a": "3 micro voltios",
+      "option_b": "3 micro voltios",
+      "option_c": "5 miliamperes",
+      "option_d": "7 microohms",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "¿Qué función tiene la etapa mezcladora de un receptor superheterodino?:",
+      "option_a": "Produce señales falsas",
+      "option_b": "Produce una frecuencia intermedia",
+      "option_c": "Se comporta como una etapa aisladora",
+      "option_d": "Cubre el rango total del receptor",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los receptores diseñados para la recepción de transmisión de audio de frecuencia modulada involucran el uso de:",
+      "option_a": "Un detector de producto",
+      "option_b": "Un detector regenerativo",
+      "option_c": "Un discriminador",
+      "option_d": "Un oscilador de frecuencia de batido",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Un transmisor con salida de 75 Ohm se debe unir con un dipolo abierto de media onda (de 75 Ohm) mediante:",
+      "option_a": "Cable coaxial de 75 Ohm de cualquier longitud",
+      "option_b": "Cable coaxial de Ohm sólo de longitud igual a múltiplos impares de cuartos de onda",
+      "option_c": "Cable coaxial de cualquier impedancia y cualquier longitud",
+      "option_d": "Cable coaxial de x 75 Ohm y cualquier longitud",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La modulación por fase se asemeja más a:",
+      "option_a": "La modulación por amplitud",
+      "option_b": "La modulación por frecuencia de banda angosta",
+      "option_c": "La modulación por impulsos codificados",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La generación de banda lateral única se puede efectuar: I Con moduladores balanceados y rotación de fases. II Con modulador balanceado y filtro pasa banda. III Con detectores de producto.",
+      "option_a": "Sólo I",
+      "option_b": "I y II",
+      "option_c": "I, II y III",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El procedimiento de las señales de audio en banda lateral única sirve para:",
+      "option_a": "Mejorar la respuesta en bajas frecuencias",
+      "option_b": "Mejorar la respuesta en altas frecuencias",
+      "option_c": "Incrementar la potencia media de la señal transmitida",
+      "option_d": "Evitar el desvanecimiento",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "La principal causa de inestabilidad de un amplificador es:",
+      "option_a": "Demasiado voltaje",
+      "option_b": "La realimentación positiva",
+      "option_c": "La polarización inadecuada",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Cuál de las siguientes especificaciones corresponde a una emisión de T.V. de barrido lento:",
+      "option_a": "Blanco: 2 MHz; negro 1 MHz; sincronismo: 500 KHz",
+      "option_b": "Blanco: 4 MHz; negro: 300 Hz; sincronismo: 15 KHz",
+      "option_c": "Blanco: 3.600 Hz; negro: 400 Hz; sincronismo: 60 Hz",
+      "option_d": "Blanco: 2.300 Hz; negro: 1.500 Hz; sincronismo: 1.200 Hz",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El transpondedor de un satélite de aficionados:",
+      "option_a": "Transmite señales de telemetría para indicar el estado de las baterías",
+      "option_b": "Traslada la banda de frecuencia de recepción al rango de emisión, sin alterar las señales",
+      "option_c": "Traslada la banda de frecuencias de transmisión, para compensar el efecto Doppler",
+      "option_d": "Pondera las magnitudes de las señales de entrada, para que sean repetidas con intensidad uniforme",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Las materias EPROM:",
+      "option_a": "Son programables por el fabricante",
+      "option_b": "Son programables por una sola vez",
+      "option_c": "Son reprogramables, luego de haber sido borradas con luz ultravioletas",
+      "option_d": "Son reprogramables, igual que una RAM, pero son más estables",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Por qué se deben hacer pausas breves entre transmisiones en un repetidor?",
+      "option_a": "Para ir a buscar lápiz y papel para anotar los detalles del comunicado",
+      "option_b": "Para chequear el SWR del repetidor",
+      "option_c": "Para escuchar si hay alguien más que quiera usar la repetidora",
+      "option_d": "Para enviar tonos",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Las repetidoras FM para su operación en la banda de 2 metros usan una frecuencia de transmisión y una de recepción. ¿La diferencia entre ella es normalmente de?",
+      "option_a": "1000 kHz",
+      "option_b": "800 kHz",
+      "option_c": "600 Khz",
+      "option_d": "400 kHz",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "- Si estas manteniendo un comunicado sobre un repetidor ¿Cómo puedes saber si es posible cambiar a una frecuencia en simples?",
+      "option_a": "Ver si puedes recibir claramente a la otra estación en frecuencia más baja de la Banda",
+      "option_b": "Ver si una tercera estación recibe claramente a ambas estaciones",
+      "option_c": "Ver si recibes claramente un repetidor más lejano",
+      "option_d": "Ver si recibes claramente a la otra estación en la frecuencia de entrada del repetidor",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Si estas operando en simplex en la frecuencia de un repetidor ¿Por qué es buena práctica cambiar de frecuencia?",
+      "option_a": "Cambiar la frecuencia del repetidor requiere autorización de SUBTEL",
+      "option_b": "La potencia de salida del repetidor puede dañar tu equipo",
+      "option_c": "Porque hay más estaciones en la repetidora que trabajando en simples",
+      "option_d": "Cambiar la frecuencia del repetidor no resulta práctico",
+      "correct_answer": "D",
+      "explanation": ""
+    }
+  ]
+}

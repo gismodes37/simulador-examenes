@@ -1,0 +1,969 @@
+{
+  "category": "CA",
+  "area": "Reglamento",
+  "questions": [
+    {
+      "text": "El objeto del Reglamento del Servicio de Aficionados a las Radiocomunicaciones es:",
+      "option_a": "Regular las operaciones de todos los servicios de telecomunicaciones",
+      "option_b": "Regular a los servicios públicos y fijos de telecomunicaciones",
+      "option_c": "Regular al servicio de aficionados a las radiocomunicaciones",
+      "option_d": "Regular la asignación de los distintivos de llamada a los radioaficionados",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El Reglamento del servicio de aficionados se aplica de acuerdo a:",
+      "option_a": "La ley general de telecomunicaciones",
+      "option_b": "El plan general de uso del espectro radioeléctrico",
+      "option_c": "Los convenios internacionales de telecomunicaciones suscritos por Chile",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El Reglamento define el término Radioaficionado como a continuación se indica:",
+      "option_a": "Persona natural que ha obtenido una licencia del servicio de aficionados a las Radiocomunicaciones, de acuerdo con la reglamentación vigente y que por su interés en las Radiocomunicaciones estudia, experimenta y practica con equipos de radio, sin fines de lucro",
+      "option_b": "Persona jurídica que por interés en las radiocomunicaciones y con espíritu recreativo, experimenta y practica con equipos de radio",
+      "option_c": "Institución sin fines de lucro que por interés en las radiocomunicaciones y con espíritu recreativo, estudia, experimenta y practica con equipos de radio",
+      "option_d": "Persona natural que por interés en el servicio a la comunidad y con espíritu recreativo, experimenta, estudia y practica con equipos de radio",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La licencia de radioaficionado es:",
+      "option_a": "La autorización que otorga el Ministerio del Interior para operar e instalar estaciones de radioaficionados",
+      "option_b": "La autorización que otorga la Subsecretaria de Telecomunicaciones para operar e instalar estaciones de radioaficionados",
+      "option_c": "La autorización que otorga la Subsecretaría de Telecomunicaciones para operar e instalar estaciones de radiodifusión sonora",
+      "option_d": "La autorización que otorga la Subsecretaría a personas naturales para operar e instalar estaciones de radioaficionados",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Las licencias de radioaficionado serán de las siguientes categorías:",
+      "option_a": "Superior, General, Novicio y Aspirante",
+      "option_b": "Superior A, Superior B, General, Novicio y Aspirante",
+      "option_c": "Superior, General A, Novicio B, Novicio A y Aspirante",
+      "option_d": "Superior, General, Novicio, Aspirante A y Aspirante B",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La licencia contendrá los siguientes elementos:",
+      "option_a": "Nombre del titular, bandas de frecuencias autorizadas, tipo de estaciones autorizadas, nombre del suplente y número de licencia",
+      "option_b": "Nombre del titular, bandas de frecuencias autorizadas, tipo de estaciones autorizadas, radio club al que pertenece y número de licencia",
+      "option_c": "Nombre del titular, domicilio, bandas de frecuencias autorizadas, tipo de estaciones autorizadas, número de licencia, categoría, distintivo de llamada, su fecha de otorgamiento y vencimiento",
+      "option_d": "Nombre del titular, dirección, potencias autorizadas, distintivo de llamada, frecuencias autorizadas y número de licencia",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Durante sus comunicados nacionales e internacionales, todo radioaficionado deber:",
+      "option_a": "Actuar dignamente",
+      "option_b": "Ser respetuoso",
+      "option_c": "Cumplir rigurosamente con las exigencias legales y reglamentarias",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La calidad de radioaficionado se perderá:",
+      "option_a": "6 meses después de vencida la licencia",
+      "option_b": "A la fecha de vencimiento de la licencia",
+      "option_c": "6 meses antes de vencida la licencia",
+      "option_d": "A la fecha de vencimiento de la concesión",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las licencias categoría Superior, General, Novicio y Aspirante, tendrán una vigencia de:",
+      "option_a": "5 años contados de la fecha de su otorgamiento, pudiendo renovarse por períodos de igual duración",
+      "option_b": "4 años contados de la fecha de su otorgamiento, pudiendo renovarse por períodos de igual duración",
+      "option_c": "3 años contados de la fecha de su otorgamiento, pudiendo renovarse por períodos de igual duración",
+      "option_d": "2 años contados de la fecha de su otorgamiento, pudiendo renovarse por períodos de igual duración",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Podrán optar a una licencia de radioaficionado:",
+      "option_a": "Personas naturales chilenas",
+      "option_b": "Extranjeros con permanencia definitiva",
+      "option_c": "Radioaficionados de países con los cuales Chile haya suscrito acuerdos de reciprocidad",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Entre otros, los requisitos para obtener una licencia categoría Superior, son los siguientes:",
+      "option_a": "Ser mayor de edad y haber sido titular de licencia categoría General durante cinco años a lo menos",
+      "option_b": "Ser mayor de edad y haber sido titular de licencia categoría General durante tres años a lo menos",
+      "option_c": "Ser mayor de edad y haber sido titular de licencia categoría Novicio durante cinco años a lo menos",
+      "option_d": "Ser mayor de edad y haber sido titular de licencia categoría Novicio durante tres años a lo menos",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Demostrar participación destacada como radioaficionado, acreditada por organizaciones de radioaficionados, en actividades como: Haber efectuado publicaciones o participación en seminarios o conferencias, de interés general para los radioaficionados. Participación destacada en concursos nacionales o extranjeros y haber desarrollado actividades especiales como experiencias de propagación, diseño de antenas, etc., es entre otros, requisito para obtener",
+      "option_a": "Superior",
+      "option_b": "General",
+      "option_c": "Novicio",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los titulares de una licencia categoría Superior, tienen las siguientes facultades:",
+      "option_a": "Operar en todas las bandas sobre los 30 MHz atribuidas al servicio de aficionados",
+      "option_b": "Operar en todas las bandas bajo los 30 MHz atribuidas al servicio de aficionados",
+      "option_c": "Operar en todas las bandas de frecuencias atribuidas al servicio de aficionados",
+      "option_d": "Operar en todas las bandas de frecuencias atribuidas a los servicios limitados",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Las potencias máximas a la entrada de la línea de alimentación de la antena autorizadas en la estación fija a la categoría Superior son:",
+      "option_a": "1.200 Watt P.E.P. bajo los 30 MHz, 1.000 Watt en VHF y 500 Watt en UHF hasta los",
+      "option_b": "1.200 Watt P.E.P. sobre los 30 MHz, 1.000 Watt en VHF y 500 Watt en UHF hasta los",
+      "option_c": "1.200 Watt P.E.P. en las bandas inferiores a 30 MHz, 100 Watt en VHF y 5 Watt en UHF hasta los 1.270 MHz",
+      "option_d": "1.200 Watt P.E.P. bajo los 30 MHz, 100 Watt en VHF y 50 Watt en UHF hasta los 1.270 MHz y 10 Watts en bandas superiores a 1270 MHz",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las potencias máximas autorizadas en las estaciones móviles a la categoría Superior son:",
+      "option_a": "200 Watt P.E.P. en las bandas inferiores a 30 MHz, 50 Watt en VHF y 25 Watt en UHF hasta 1.270 MHz y 10 Watts en bandas superiores a 1270 Mhz",
+      "option_b": "2000 Watt P.E.P. en las bandas inferiores a 30 MHz, 500 Watt en VHF y 250 Watt en UHF hasta 1.270 MHz",
+      "option_c": "2000 Watt P.E.P. en las bandas inferiores a 30 MHz, 500 Watt en VHF y 25 Watt en UHF hasta 1.270 MHz",
+      "option_d": "2000 Watt P.E.P. en las bandas inferiores a 30 MHz, 250 Watt en VHF y 25 Watt en UHF hasta 1.270 MHz",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados con licencia categoría Superior, pueden instalar y operar estaciones:",
+      "option_a": "Fijas y Móviles",
+      "option_b": "Fijas, Móviles y Repetidoras",
+      "option_c": "Fijas, Móviles y Espaciales",
+      "option_d": "Fijas, Móviles, y Satelitales",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados con licencia categoría Superior, pueden usar potencias mayores a las autorizadas, previa autorización temporal de:",
+      "option_a": "No necesitan autorización previa",
+      "option_b": "El Radio Club al cual pertenecen",
+      "option_c": "La Subsecretaría de Telecomunicaciones",
+      "option_d": "La Secretaría Regional Ministerial correspondiente al lugar de residencia del radioaficionado",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Entre otros, los requisitos para obtener licencia categoría General son:",
+      "option_a": "Ser mayor de 15 años, haber sido Novicio durante tres años a lo menos y aprobar el examen de conocimientos técnicos y reglamentarios aplicados al servicio de radioaficionados",
+      "option_b": "Ser mayor de 18 años, haber sido Novicio durante seis meses a lo menos y aprobar el examen teórico, práctico, reglamentario y de telegrafía",
+      "option_c": "Ser mayor de edad, haber sido Novicio durante un año a lo menos y aprobar el examen teórico, práctico, reglamentario y de telegrafía",
+      "option_d": "Ser mayor de 21 años, haber sido Novicio durante dos años a lo menos y aprobar los exámenes teórico y práctico",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados categoría General están autorizados para operar las siguientes bandas bajo los 30 MHz:",
+      "option_a": "80, 40 y 20 M",
+      "option_b": "160, 80, 40 y 20 M",
+      "option_c": "160, 80, 40, 20, 17 y 12 M",
+      "option_d": "160, 80, 40, 20, 15, 17, 12 y 10 M",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las potencias autorizadas para la categoría General son:",
+      "option_a": "Iguales a las autorizadas a la Categoría Novicio B",
+      "option_b": "Iguales a las autorizadas a la Categoría Novicio A",
+      "option_c": "Iguales a las autorizadas a la Categoría Superior",
+      "option_d": "Iguales a las autorizadas a la Categoría Aspirante",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados categoría General pueden operar e instalar estaciones:",
+      "option_a": "Terrestres, marítimas y aéreas",
+      "option_b": "Terrestres, marítimas, aéreas y repetidoras",
+      "option_c": "Espaciales, fijas, móviles, repetidoras y marítimas",
+      "option_d": "Espaciales, móviles y fijas",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados con licencia categoría General, tienen autorizadas las siguientes potencias:",
+      "option_a": "Estación fija en HF 1.200 Watt P.E.P",
+      "option_b": "Estación móvil en HF 200 Watt P.E.P",
+      "option_c": "- VHF fijo 100 Watt y VHF móvil 50 Watt",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Entre otros, los requisitos para obtener a la categoría Novicio son:",
+      "option_a": "Ser mayor de edad y aprobar un examen de conocimientos reglamentarios, técnicos y de telegrafía",
+      "option_b": "Ser mayor de edad y aprobar un examen de conocimientos reglamentarios y técnicos, excluido el de telegrafía",
+      "option_c": "Ser mayor de 12 años y aprobar un examen de conocimientos reglamentarios y técnicos",
+      "option_d": "Ser mayor de 12 años y aprobar un examen de conocimientos reglamentarios, técnicos, excluido el de telegrafía",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para obtener la categoría Novicio, es necesario haber sido Aspirante un año a lo menos. Este período se puede reducir a seis meses acreditando:",
+      "option_a": "Conocimientos de electrónica mediante algún título de educación superior",
+      "option_b": "Haber aprobado un curso dictado por un Radio Club reconocido por la Subsecretaría",
+      "option_c": "Práctica en el diseño y construcción de antenas",
+      "option_d": "Participación destacada en concursos nacionales e internacionales de radioaficionados",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados titulares de una licencia categoría Novicio pueden operar las siguientes bandas:",
+      "option_a": "3,5 - 7 – 10- 28 - 50 - 144 - 220 - 430 - 1.270 - 2.400 y 5.650 MHz",
+      "option_b": "1,8 - 7 - 28 - 50 - 144 - 220 - 430 - 1.240 y 2.400 MHz",
+      "option_c": "1,8 - 7 - 21 - 50 - 144 - 220 - 430 - 1.270 y 2.400 MHz",
+      "option_d": "3,5 - 7 - 21 - 50 - 144 - 220 - 430 - 1.240 - 2.400 y 5.650 MHz",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados con licencia categoría Novicio pueden instalar y operar estaciones del servicio:",
+      "option_a": "Fijo, móvil, repetidor y satelital",
+      "option_b": "Fijo, móvil y satelital",
+      "option_c": "Fijo, móvil, terrestre y satelital",
+      "option_d": "Fijo, terrestre y satelital",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Las radioaficionadas categoría Novicio pueden operar estaciones móviles de VHF con una potencia máxima de:",
+      "option_a": "- 25 Watt",
+      "option_b": "- 200 Watt",
+      "option_c": "- 250 Watt",
+      "option_d": "- 250 mW",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Para obtener una licencia categoría Novicio se requiere entre otras cosas:",
+      "option_a": "Ser mayor de 12 años y aprobar un examen de conocimientos en reglamentación, materias técnicas y telegrafía",
+      "option_b": "Ser mayor de 13 años y aprobar un examen de conocimientos en reglamentación, materias técnicas y telegrafía",
+      "option_c": "Ser mayor de 12 años y aprobar un examen de conocimientos en reglamentación y materias técnicas aplicados al servicio de radioaficionados",
+      "option_d": "Ser mayor de 14 años y aprobar un examen de conocimientos en reglamentación y materias técnicas",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para obtener a la categoría Novicio es necesario haber sido Aspirante un año. Esto se puede reducir a seis meses sí:",
+      "option_a": "Comprueba estar cursando estudios superiores en telecomunicaciones",
+      "option_b": "Comprueba haber aprobado estudios superiores en electrónica",
+      "option_c": "Comprueba haber aprobado estudios técnicos en un instituto",
+      "option_d": "Comprueba haber aprobado un curso dictado por un Radio Club autorizado",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las radioaficionadas categoría Novicio están autorizados para operar en las siguientes bandas:",
+      "option_a": "Todas las bandas autorizadas al servicio de aficionados a las radiocomunicaciones por la Subsecretaría de Telecomunicaciones",
+      "option_b": "80, 40, 10 M en HF, 50 y 144 MHz en VHF",
+      "option_c": "En VHF 50, 144 y 220 MHz, y en UHF 430, 1.270, 2.400 y 5.650 MHz",
+      "option_d": "En los 3,5 - 7 - 14 - 21 - y 28 MHz para HF y en los 50, 144, 220 en VHF",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "La radioaficionada categoría Novicio puede operar con las siguientes potencias máximas:",
+      "option_a": "Estaciones fijas con 50 Watt en VHF, 25 Watt en UHF y 10 Watt en los 2.400 MHz",
+      "option_b": "Estaciones fijas con 25 Watt en VHF, 2,5 Watt en UHF y 1 Watt en los 2.400 MHz",
+      "option_c": "Estaciones fijas con 50 Watt en VHF, 2,5 Watt en UHF y 10 Watt en los 2.400 MHz",
+      "option_d": "Estaciones fijas con 50 Watt en VHF, 25 Watt en UHF y 1 Watt en los 2.400 MHz",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "A los titulares de una licencia categoría Novicio, les está prohibido:",
+      "option_a": "Operar e instalar estaciones móviles en la banda de VHF",
+      "option_b": "Operar e instalar estaciones fijas y móviles en la banda de VHF y UHF",
+      "option_c": "Operar e instalar estaciones fijas o móviles en la banda de HF",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Para obtener una licencia categoría Aspirante se deben cumplir entre otros, los siguientes requisitos:",
+      "option_a": "Ser mayor de 13 años y aprobación de un examen de materias técnicas, reglamentarias y de telegrafía",
+      "option_b": "Ser mayor de 10 años y aprobar un examen de materias técnicas y reglamentarias de acuerdo a la norma respectiva",
+      "option_c": "Ser mayor de 12 años y aprobación de un examen de reglamentación y materias técnicas solamente",
+      "option_d": "Ser mayor de 13 años y aprobar un examen de reglamentación, excepto las materias técnicas",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Las materias que incluye el examen de reglamentación que deben rendir los postulantes a Aspirante serán las mismas que se requieren para la categoría:",
+      "option_a": "Superior",
+      "option_b": "General",
+      "option_c": "Novicio",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las radioaficionadas categorías Aspirantes pueden operar en las siguientes bandas:",
+      "option_a": "En 144 – 3,5 – 7 y 28 MHz",
+      "option_b": "En la Banda de VHF de 144 MHz y bajo los 30 MHz",
+      "option_c": "En la banda de VHF de 144 MHz más los 50 MHz",
+      "option_d": "En la banda de 144 MHz y 430 MHz",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los permisionarios de la categoría Aspirante pueden usar una potencia máxima de:",
+      "option_a": "500 Watt al operar estaciones fijas ó móviles en la banda de VHF",
+      "option_b": "50 Watt al operar estaciones fijas ó móviles en la banda de VHF",
+      "option_c": "5 Watt al operar estaciones fijas ó móviles en la banda de VHF",
+      "option_d": "50 mW al operar estaciones fijas ó móviles en la banda de VHF",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La licencia categoría Aspirante, tendrá una vigencia de:",
+      "option_a": "Un año",
+      "option_b": "Dos años",
+      "option_c": "Tres años",
+      "option_d": "Cinco años",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La licencia categoría Aspirante se puede renovar antes de su vencimiento cumpliendo los siguientes requisitos:",
+      "option_a": "No es renovable",
+      "option_b": "Presentando una solicitud de renovación de licencia, antes del vencimiento, presentando los antecedentes que exija Subtel",
+      "option_c": "Presentando un certificado de antecedentes para fines especiales",
+      "option_d": "Presentando una solicitud y certificado de antecedentes para fines especiales",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El procedimiento para obtener a una licencia de radioaficionado, se iniciará:",
+      "option_a": "Con la presentación del interesado a rendir examen",
+      "option_b": "Con el listado de postulantes presentado por los Radio Clubes",
+      "option_c": "Con la presentación ante la Subsecretaría de una solicitud por parte del interesado",
+      "option_d": "Con la presentación del interesado o su representante, a rendir examen",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para renovar una licencia de radioaficionado, debe seguirse el siguiente procedimiento:",
+      "option_a": "Inscribirse y presentarse a examen para la misma categoría de licencia",
+      "option_b": "Presentar una solicitud de renovación con los antecedentes que exige la Subsecretaría",
+      "option_c": "Presentar una solicitud de renovación antes del vencimiento de la licencia, con los antecedentes que exija la Subsecretaría",
+      "option_d": "Presentar una solicitud de renovación a lo más seis meses después del vencimiento de la licencia, con los antecedentes que requiera la Subsecretaría",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Podrán solicitar a la Subsecretaría el permiso internacional de radioaficionado los titulares de una licencia Categoría:",
+      "option_a": "Superior",
+      "option_b": "Novicio, General y Superior",
+      "option_c": "General y Superior",
+      "option_d": "Superior, General, Novicio y Aspirante",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "En el permiso de estación otorgado por la Subsecretaría se indicará:",
+      "option_a": "Nombre del titular y domicilio donde se encuentren los equipos",
+      "option_b": "Bandas de frecuencias autorizadas y señal distintiva",
+      "option_c": "Tipos de estaciones y límites de potencias autorizadas",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La solicitud de renovación de licencia deberá presentarse a lo menos:",
+      "option_a": "30 días antes del vencimiento",
+      "option_b": "90 días antes del vencimiento",
+      "option_c": "Un mes antes del vencimiento",
+      "option_d": "Con 15 días de anticipación al vencimiento",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La licencia de radioaficionado y el permiso de estación son respectivamente:",
+      "option_a": "La licencia es la autorización que otorga la Subsecretaría para operar y el permiso es la autorización para mantener instalado y en operación la estación de radio",
+      "option_b": "La licencia y el permiso son un mismo documento sin diferencia entre ellos",
+      "option_c": "Se otorga solamente la licencia de radioaficionado",
+      "option_d": "Se otorga solamente el permiso de radioaficionado",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los equipos de radioaficionados podrán ser operados por:",
+      "option_a": "Cualquier persona natural que tengan los conocimientos técnicos necesarios",
+      "option_b": "Quien cuente con la licencia idónea para tales efectos",
+      "option_c": "Los familiares directos del permisionario",
+      "option_d": "Quienes cuenten con autorización del titular de la estación",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Corresponde velar por la correcta operación de los equipos de una estación de radioaficionado:",
+      "option_a": "La Subsecretaría de Telecomunicaciones",
+      "option_b": "El Radio Club de la zona",
+      "option_c": "Al titular del permiso",
+      "option_d": "Al técnico encargado de su mantenimiento",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Previo a la instalación de las estaciones fijas, móviles y repetidoras del servicio de aficionados, se debe:",
+      "option_a": "Contar con los equipos, antenas y accesorios necesarios",
+      "option_b": "Conectar los equipos a una buena tierra",
+      "option_c": "Ajustar las antenas y las líneas de transmisión",
+      "option_d": "Poseer el permiso de la Subsecretaría",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Están obligados a solicitar permiso para instalar estaciones de radioaficionados:",
+      "option_a": "Las personas naturales titulares de una licencia de radioaficionado",
+      "option_b": "Los Radio Clubes autorizados",
+      "option_c": "Los Círculos de Radioaficionados organizados en las instituciones que señala el reglamento",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los permisos para instalar estaciones de radioaficionados en las instituciones señaladas en el reglamento y en los organismos del Estado tendrán una duración de:",
+      "option_a": "Tres años, renovables después de un año de su vencimiento",
+      "option_b": "Cinco años, renovables por períodos de igual duración",
+      "option_c": "Cinco años, renovable sólo por otro período igual",
+      "option_d": "Cinco años, no renovables",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Se podrá autorizar la instalación de estaciones de radioaficionados en sedes de organismos del Estado cuando:",
+      "option_a": "Tengan necesidad de recurrir al servicio de radioaficionados para coordinar actividades propias de situaciones de emergencias",
+      "option_b": "Tengan necesidad de recurrir al servicio de radioaficionados para coordinar actividades propias de investigaciones tecnológicas",
+      "option_c": "Tengan necesidad de recurrir al servicio de radioaficionados para coordinar actividades propias de sus ministerios",
+      "option_d": "Tengan necesidad de recurrir al servicio de radioaficionados para coordinar actividades propias de sus funcionarios",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones de radioaficionados podrán ser de los siguientes tipos:",
+      "option_a": "Fijas y Móviles",
+      "option_b": "Fijas, móviles y portátiles",
+      "option_c": "Fijas, móviles y repetidoras atendidas y no atendidas",
+      "option_d": "Fijas, móviles, espaciales, repetidoras atendidas y no atendidas, terrenas y radiobalizas y radiofaros",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El reglamento define como estación fija a:",
+      "option_a": "Aquella que está detenida en puntos no determinados",
+      "option_b": "Aquella destinada a operar en un lugar determinado",
+      "option_c": "Aquella transportada por una persona a un lugar determinado",
+      "option_d": "Aquella que se encuentra en un vehículo detenido",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El reglamento define a una estación espacial como:",
+      "option_a": "Estación del Servicio de Aficionados destinada a un enlace espacio - Tierra",
+      "option_b": "Estación del Servicio de Aficionados que describe una órbita geoestacionaria",
+      "option_c": "Estación del Servicio de Aficionados que se encuentra ubicada en un satélite",
+      "option_d": "Estación del Servicio de Aficionados que se encuentra en una órbita baja",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Se define estación repetidora analógica o digital como:",
+      "option_a": "Aquella que recibe una señal en una frecuencia y la retransmite automáticamente en otra con mayor potencia, permitiendo la comunicación interregional",
+      "option_b": "Aquella que recibe una señal en una frecuencia y la retransmite automáticamente en la misma con mayor potencia permitiendo la intercomunicación entre regiones",
+      "option_c": "Aquella que funciona como estación intermedia entre dos móviles, permitiendo que se comuniquen a grandes distancias y está equipada con duplexores",
+      "option_d": "Aquella estación fija que permite retransmitir señales analógicas o digitales en las mismas o diferentes frecuencias",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los permisos para instalar estaciones de radioaficionados en Radio Clubes, Círculos de Radioaficionados, organismos del Estado e instituciones en general, se extenderán a nombre de:",
+      "option_a": "El presidente o director de la institución, servicio o establecimiento al que pertenezca la dependencia donde se instalarán",
+      "option_b": "La institución, servicio o establecimiento al que pertenezca la dependencia donde se instalarán",
+      "option_c": "La ciudad o lugar de residencia de la institución, servicio o establecimiento solicitante",
+      "option_d": "Según lo propuesto por la institución, servicio o establecimiento solicitante",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los permisos otorgados a las instituciones, servicios o establecimientos, tendrá una duración de:",
+      "option_a": "15 años renovables por períodos de igual duración",
+      "option_b": "10 años renovables por períodos de igual duración",
+      "option_c": "5 años renovables por períodos de igual duración",
+      "option_d": "3 años renovables después de un año por un periodo de igual duración",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones móviles pueden ser:",
+      "option_a": "Terrestres, marítimas y aeronáuticas",
+      "option_b": "Fijas, móviles y repetidoras",
+      "option_c": "Portables, portátiles y barra CE más el número de la zona donde se encuentra operando",
+      "option_d": "Portátiles, móviles y espaciales",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones marítimas y aeronáuticas deben ser instaladas en naves o aeronaves que estén debidamente registradas y autorizadas por:",
+      "option_a": "La Subsecretaria de Marina o la Subsecretaria de Aviación",
+      "option_b": "El Comandante en Jefe de la Armada o el Comandante en Jefe de la Fuerza Aérea",
+      "option_c": "La Subsecretaria de Telecomunicaciones o la Junta de Aeronáutica Civil",
+      "option_d": "La Dirección General del Territorio Marítimo y Marina Mercante o por la Dirección General de Aeronáutica Civil",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones de radioaficionados sólo podrán emplearse para:",
+      "option_a": "La intercomunicación radial",
+      "option_b": "La experimentación técnica y científica",
+      "option_c": "Comunicaciones con estaciones pertenecientes a otros radioaficionados",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿Pueden los radioaficionados comunicarse con estaciones de otros servicios?",
+      "option_a": "Sí, en casos calificados y previa autorización del presidente del Radio Club al que pertenece",
+      "option_b": "Sí, en casos calificados y previa autorización del jefe de emergencias regional",
+      "option_c": "Sí, en casos calificados y previa autorización de la Subsecretaría",
+      "option_d": "No, en ningún caso",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Al servicio de aficionados le está prohibido:",
+      "option_a": "Difundir mensajes o comunicados que puedan atentar en contra del buen uso del lenguaje y de los códigos y abreviaturas aprobadas por la UIT",
+      "option_b": "Difundir mensajes o comunicados que puedan atentar en contra de la moral, las buenas costumbres, el orden público o el normal desarrollo del servicio de aficionados",
+      "option_c": "Difundir mensajes o comunicados que puedan atentar en contra del código de ética del radioaficionado y de las normas de operación de los equipos del Radio Club al que pertenece el radioaficionado",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Al servicio de aficionados le está prohibido:",
+      "option_a": "Difundir mensajes que puedan atentar en contra de la moral y las buenas costumbres, el orden público o el normal desarrollo del servicio de aficionados",
+      "option_b": "Permitir que los equipos de transmisión sean operados por quienes no tienen licencia de radioaficionados",
+      "option_c": "Cursar mensajes por recompensa material directa o indirecta, pagada o prometida",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El responsable de velar por que los equipos de transmisión no sean operados por quienes no posean una licencia idónea es:",
+      "option_a": "El presidente del Radio Club de su jurisdicción",
+      "option_b": "El presidente de la Federación de Clubes de Radioaficionados",
+      "option_c": "El encargado de la sección licencias de la Subsecretaría",
+      "option_d": "El titular de la licencia de radioaficionado",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se podrán usar idiomas extranjeros en los comunicados con:",
+      "option_a": "En comunicados con estaciones a bordo de naves de otros países",
+      "option_b": "En comunicados con radioaficionados de países en los que el idioma oficial no es el español",
+      "option_c": "En comunicados con radioaficionados del país para que los demás no entiendan",
+      "option_d": "En comunicados con estaciones de otros servicios que usan el idioma inglés",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones de radioaficionados no deben generar interferencias perjudiciales a los sistemas de comunicaciones debidamente autorizados.",
+      "option_a": "Falso, como los radioaficionados ayudan en casos de emergencias, no se les puede exigir que no causen interferencias",
+      "option_b": "Falso, como los radioaficionados son un servicio de utilidad pública, los demás servicios deben aceptar las interferencias que provengan de sus equipos e instalaciones",
+      "option_c": ", no se debe causar ningún tipo de interferencias a los demás servicios de telecomunicaciones",
+      "option_d": ", aunque nunca los radioaficionados causan interferencias perjudiciales",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Al operar sus estaciones, los radioaficionados deben considerar:",
+      "option_a": "No transmitir en bandas de frecuencias que no sean las autorizadas al servicio de radioaficionados",
+      "option_b": "No generar interferencias perjudiciales a los demás servicios de telecomunicaciones",
+      "option_c": "Que el ancho de banda de sus emisiones no exceda los límites de las bandas autorizadas",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "La única autoridad que puede requerir el cese de las transmisiones al servicio de radioaficionados es:",
+      "option_a": "La Unión Internacional de Telecomunicaciones",
+      "option_b": "La Subsecretaría de Telecomunicaciones",
+      "option_c": "El Ministerio de Telecomunicaciones",
+      "option_d": "La Conferencia Interamericana de Telecomunicaciones",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un radioaficionado categoría Aspirante, ¿Puede operar en VHF?",
+      "option_a": "Sí",
+      "option_b": "No",
+      "option_c": "Sí, siempre que la potencia máxima no exceda de 25 Watts",
+      "option_d": "Sí, pero sólo en la banda de 144 MHz",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "¿Al cumplir tres años como radioaficionado categoría Aspirante, se puede optar a licencia categoría General?",
+      "option_a": "Si, aprobando los exámenes de conocimientos técnicos y reglamentarios",
+      "option_b": "No, debe haber tenido licencia categoría Novicio durante tres años a lo menos",
+      "option_c": "Si, siempre que tenga autorización de los padres",
+      "option_d": "Si, siempre que sea mayor de 18 años",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Se entiende por estación repetidora atendida:",
+      "option_a": "Estación Repetidora de baja potencia que opera en presencia de un radioaficionado y que forma parte de los equipos de su estación",
+      "option_b": "Estación Repetidora de alta potencia que opera en presencia de un radioaficionado y que forma parte de los equipos de su estación",
+      "option_c": "Estación Repetidora de baja potencia que opera sin presencia de un radioaficionado",
+      "option_d": "Estación Repetidora de 5W de potencia que opera en presencia de un radioaficionado y que forma parte de los equipos de su estación",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Podrán instalar estaciones repetidoras atendidas",
+      "option_a": "Sólo radioaficionados con licencia clase Superior",
+      "option_b": "Radioaficionados con licencia clase General o Superior",
+      "option_c": "Todos los radioaficionados ya que no se requiere de permiso especial",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones repetidoras atendidas",
+      "option_a": "Son estaciones Repetidoras de baja potencia que operan en presencia de un radioaficionado y que forma parte de los equipos de su estación",
+      "option_b": "Se consideran amparadas en el respectivo permiso de radioaficionado con licencia General o Superior y en los respectivos permisos de los círculos de radioaficionados. Radio Clubes y Asociaciones o Federaciones de Círculos de radioaficionados y de Radio Clubes",
+      "option_c": "NO requerirán de permiso específico siempre que las estaciones se encuentren instaladas en el respectivo domicilio del radioaficionado o de las instituciones de radioaficionados",
+      "option_d": "Todas las anteriores sons",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Se define como estación repetidora no atendida:",
+      "option_a": "Estación Repetidora que opera sin presencia física inmediata de un radioaficionado",
+      "option_b": "Estación Repetidora de alta potencia que opera en presencia de un radioaficionado las 24 horas",
+      "option_c": "Estación Repetidora de alta potencia operada por un Radio club autorizado",
+      "option_d": "Estación Repetidora de baja potencia que opera en presencia de un radioaficionado y que forma parte de los equipos de su estación",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones repetidoras no atendida deberán disponer contar con:",
+      "option_a": "Como mínimo con un dispositivo de identificación automático, un sistema de telegrafía y control para tener el estado de los parámetros de la estación y el encendido y apagado remoto",
+      "option_b": "Sólo con un sistema de encendido y apagado a distancia",
+      "option_c": "Paneles solares para eventuales fallas del suministro de energía eléctrico",
+      "option_d": "Equipos de repuesto en caso de falla",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Podrán instalar estaciones repetidoras no atendidas",
+      "option_a": "Cualquier radioaficionado con licencia vigente",
+      "option_b": "Sólo radioaficionado con licencia clase Superior",
+      "option_c": "Radioaficionados con licencia clase General o Superior",
+      "option_d": "Sólo los círculos de Radioaficionados, Radio Clubes y Asociaciones y Federaciones de Círculos de Radioaficionados y de Radio Clubes",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las estaciones repetidoras no atendidas deberán tener una autonomía de energía de:",
+      "option_a": "24 horas a plena carga como mínimo",
+      "option_b": "24 horas a plena carga como máximo",
+      "option_c": "48 horas a plena carga como mínimo",
+      "option_d": "72 horas a plena carga como máximo",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los radioaficionados chilenos pueden usar los siguientes prefijos en sus distintivos de llamada, de acuerdo a la categoría de su licencia.",
+      "option_a": "XQ, CE, CA o CD",
+      "option_b": "XQ, CE, CA o CC",
+      "option_c": "XR, CE, CA o CD",
+      "option_d": "XQ y CE solamente",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "A la categoría General, le corresponderá el siguiente prefijo en su distintivo de llamada:",
+      "option_a": "XQ",
+      "option_b": "CE",
+      "option_c": "CA",
+      "option_d": "CB",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "A la categoría Superior, le corresponderá el siguiente prefijo en su distintivo de llamada:",
+      "option_a": "XQ",
+      "option_b": "CE",
+      "option_c": "CA",
+      "option_d": "CB",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "A la categoría Novicio, le corresponderá el siguiente prefijo en su distintivo de llamada:",
+      "option_a": "CB",
+      "option_b": "CA",
+      "option_c": "CE",
+      "option_d": "CD",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "A la categoría Aspirante, le corresponderá el siguiente prefijo en su distintivo de llamada:",
+      "option_a": "CA",
+      "option_b": "CB",
+      "option_c": "CD",
+      "option_d": "CE",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El uso de los prefijos especiales XR, CB y 3G, es definido por:",
+      "option_a": "El radioaficionado interesado, siempre y cuando sea superior ó general",
+      "option_b": "La comisión de concursos especiales de los Radio Clubes",
+      "option_c": "Los organizadores de los concursos especiales",
+      "option_d": "La Subsecretaría de Telecomunicaciones",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El distintivo de llamada asignado por la Subsecretaría de Telecomunicaciones a cada estación de radioaficionados, está de acuerdo a la nomenclatura especificada en:",
+      "option_a": "El Reglamento del Servicio de Aficionados a las Radiocomunicaciones",
+      "option_b": "El Reglamento de Radiocomunicaciones de la Organización de Estados Americanos",
+      "option_c": "La Ley General de Telecomunicaciones N° 18.168",
+      "option_d": "El Reglamento de Radiocomunicaciones de la Unión Internacional de Telecomunicaciones",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El distintivo de llamada debe ser anunciado por el radioaficionado:",
+      "option_a": "En forma completa al comienzo y al término de cada transmisión",
+      "option_b": "En forma completa sólo al inicio de cada transmisión",
+      "option_c": "En forma completa sólo al término de cada transmisión",
+      "option_d": "En forma completa sólo en transmisiones en CW",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "El distintivo de llamada debe ser anunciado por el radioaficionado en sus comunicados en modo:",
+      "option_a": "Fonía y telegrafía solamente",
+      "option_b": "En todos los modos",
+      "option_c": "Sólo en fonía (SSB y AM)",
+      "option_d": "Sólo en modos digitales",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El distintivo de llamada debe ser enunciado en forma completa en intervalos no mayores de:",
+      "option_a": "5 minutos",
+      "option_b": "10 minutos",
+      "option_c": "15 minutos",
+      "option_d": "20 minutos",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "El radioaficionado que opere una estación que no le pertenezca deberá:",
+      "option_a": "Anunciar el distintivo propio, seguido del distintivo de llamada de la estación que se encuentra operando",
+      "option_b": "Anunciar el distintivo de llamada de la estación que eventualmente se encuentre operando, seguido de su propio distintivo",
+      "option_c": "Anunciar el distintivo de llamada de la estación que eventualmente se encuentre operando en intervalos no mayores de 15 minutos",
+      "option_d": "Anunciar el distintivo de llamada de su estación a intervalos no mayores de 15 minutos",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "El distintivo de llamada de un radioaficionado puede ser utilizado por:",
+      "option_a": "El titular y sus familiares directos",
+      "option_b": "El titular y los radioaficionados que operen su estación",
+      "option_c": "Cualquier persona de reconocida idoneidad y responsabilidad",
+      "option_d": "Solamente por el titular",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "A las instituciones de radioaficionados se les asignará en sus distintivos de llamada el prefijo:",
+      "option_a": "XQ, CE, CA, CB ó CD",
+      "option_b": "Solamente CE",
+      "option_c": "Solamente XQ",
+      "option_d": "Sólo el distintivo del operador de turno",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Los Círculos de Radioaficionados se constituirán en instituciones para desarrollar actividades propias de:",
+      "option_a": "El servicio de radioaficionados",
+      "option_b": "El servicio al que pertenecen",
+      "option_c": "La institución que las ampara",
+      "option_d": "Ninguna de las anteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Los Círculos de Radioaficionados, deberán tener en sus registros como socios:",
+      "option_a": "Mínimo 30 socios con licencia al día, de cualquier categoría",
+      "option_b": "Mínimo 20 socios con licencia al día. de los cuales, al menos 10 con licencia categoría General o Superior",
+      "option_c": "Mínimo 10 socios con licencia al día, y al menos uno con licencia categoría General o Superior",
+      "option_d": "Mínimo 5 socios con licencia al día, y al menos uno con licencia categoría General o Superior",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Los requisitos para que la Subsecretaría reconozca a un Radio Club son los siguientes:",
+      "option_a": "Ser personas jurídicas sin fines de lucro",
+      "option_b": "Que tengan como finalidad principal el desarrollo y fomento de la radioafición",
+      "option_c": "Agrupar a radioaficionados interesados en aumentar sus conocimientos y posibilidades recreativas",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El registro mínimo de socios que la Subsecretaría exige para reconocer un Radio Club es:",
+      "option_a": "10 socios, de los cuales, a lo menos 5 deben ser categoría Novicio A o B y 5 categoría General o superior",
+      "option_b": "15 socios, de los cuales, a lo menos 5 deben ser categoría Novicio A o B y 5 categoría General o Superior",
+      "option_c": "20 socios, de los cuales, a lo menos 15 deben ser categoría Novicio A o B y 5 categoría General o Superior",
+      "option_d": "30 socios, de los cuales, a lo menos 15 deben ser categoría Novicio o Aspirante y 5",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Los Radio Clubes, para ser reconocidos por la Subsecretaría deben tener como finalidad principal:",
+      "option_a": "El desarrollo, mejoramiento y fomento de la radioafición",
+      "option_b": "Agrupar a radioaficionados interesados en aumentar sus conocimientos y posibilidades recreativas",
+      "option_c": "Usar en forma coordinada y eficiente los recursos técnicos propios y de sus afiliados en la colaboración que se preste a las autoridades y a la comunidad en caso de catástrofe o emergencia",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "El servicio de radioaficionados podrá ser empleado como servicio de emergencia, en cuyo caso:",
+      "option_a": "Los Radio Clubes organizarán redes comunales, provinciales, regionales o nacionales",
+      "option_b": "Las Secretarías Regionales de Telecomunicaciones actuarán como estaciones controles de la red",
+      "option_c": "Las redes deben organizarse de acuerdo a los requerimientos de las autoridades pertinentes",
+      "option_d": "Es válido lo señalado en A y C",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Entre otros, el objetivo de la red de emergencia es:",
+      "option_a": "Mantener el enlace radial con la zona o lugar afectado por una situación de emergencia",
+      "option_b": "Cursar los mensajes de carácter oficial de la autoridad de gobierno",
+      "option_c": "Aportar las informaciones que requieran las autoridades pertinentes",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Las sanciones que correspondan a quienes infrinjan las disposiciones legales, reglamentarias y técnicas que se refieran al servicio de aficionados, se determinarán y aplicarán por:",
+      "option_a": "El Ministro del Interior",
+      "option_b": "El Presidente de la Corte Suprema",
+      "option_c": "El Ministro de Transportes y Telecomunicaciones",
+      "option_d": "El Ministerio de Justicia",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "De la resolución que imponga sanciones a quienes infrinjan las disposiciones legales, reglamentarias y técnicas se podrá apelar ante:",
+      "option_a": "La Corte de Apelaciones de Santiago",
+      "option_b": "La Corte de Apelaciones donde reside el sancionado",
+      "option_c": "Los Juzgados de Policía Local",
+      "option_d": "El Ministro de Transportes y Telecomunicaciones",
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "text": "Las infracciones a las disposiciones legales, reglamentarias y técnicas del servicio de aficionados, se clasifican en:",
+      "option_a": "Suspensión, multa y caducidad",
+      "option_b": "Reglamentarias y antirreglamentarias",
+      "option_c": "Imprudentes y negligentes",
+      "option_d": "Leves y graves",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Al ser notificado el infractor del o de los cargos que se formulan en su contra, tiene un plazo para formular sus descargos de:",
+      "option_a": "5 días",
+      "option_b": "10 días",
+      "option_c": "15 días",
+      "option_d": "30 días",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Un radioaficionado, al ser notificado por la Subsecretaria de estar cometiendo una falta por falla técnica, deberá:",
+      "option_a": "Disminuir la potencia de su equipo",
+      "option_b": "Subsanar la anomalía en el plazo que fije la Subsecretaría",
+      "option_c": "Girar su antena en otra dirección",
+      "option_d": "Arreglar el desperfecto dentro de las 24 horas",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "Le corresponde a la Subsecretaría de Telecomunicaciones:",
+      "option_a": "Regular y fiscalizar las operaciones del servicio de aficionados a las radiocomunicaciones",
+      "option_b": "Aplicar la Ley General de Telecomunicaciones",
+      "option_c": "Aplicar el Reglamento del Servicio de Aficionados a las Radiocomunicaciones y dictar y aplicar sus normas complementarias",
+      "option_d": "Todas las anteriores",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "Cualquier actividad no contemplada en el reglamento del servicio de aficionados, que los radioaficionados quieran realizar en las bandas autorizadas, debe ser previamente autorizada por:",
+      "option_a": "El Ministerio de Transportes y Telecomunicaciones",
+      "option_b": "Las Secretarías Ministeriales de Telecomunicaciones",
+      "option_c": "La Subsecretaría de Telecomunicaciones",
+      "option_d": "Las Intendencias en las Regiones",
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "text": "Para aumentar el control del uso de las bandas del servicio de aficionados, la Subsecretaría podrá requerir la colaboración de:",
+      "option_a": "Los radioaficionados categoría superior",
+      "option_b": "Los Radio Clubes y de sus organizaciones",
+      "option_c": "Los servicios de telecomunicaciones privados",
+      "option_d": "Solamente la Subsecretaría puede controlar las bandas de aficionados",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "La fuerza pública puede efectuar labores de fiscalización al servicio de aficionados a las telecomunicaciones:",
+      "option_a": "Solamente la Subsecretaría de Telecomunicaciones puede efectuar labores de fiscalización al servicio de aficionados a las radiocomunicaciones",
+      "option_b": "La fuerza pública sólo puede actuar a requerimiento de la Subsecretaría de Telecomunicaciones en ejercicio de las facultades fiscalizadoras que le otorga la ley",
+      "option_c": "La fuerza pública contempla entre sus funciones, fiscalizar a los servicios de telecomunicaciones del país, cuando lo estime necesario",
+      "option_d": "Sólo A y B",
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "text": "¿A quién le corresponde determinar y aplicar las sanciones a los radioaficionados que infrinjan las disposiciones legales , reglamentarias y técnicas atribuidas al servicio?",
+      "option_a": "Al Subsecretario(a) de Telecomunicaciones",
+      "option_b": "Al Ministro(a) de Transportes y Telecomunicaciones",
+      "option_c": "Al Ministro del Interior",
+      "option_d": "A Carabineros de Chile",
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "text": "A nivel nacional e internacional, la Administración Chilena de Telecomunicaciones es:",
+      "option_a": "La Subsecretaría de Telecomunicaciones",
+      "option_b": "El Ministerio de Transportes y Telecomunicaciones",
+      "option_c": "El Ministerio del Interior",
+      "option_d": "El Ministerio de Relaciones Exteriores",
+      "correct_answer": "A",
+      "explanation": ""
+    }
+  ]
+}
