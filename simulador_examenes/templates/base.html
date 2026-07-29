@@ -6,60 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Simulador de Exámenes Radioafición Chile{% endblock %}</title>
     <script src="{% static 'js/theme.js' %}"></script>
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Inter + Material Icons Outlined -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YcnS/1p0KQLI8apmHRnNchUqDO2b5RMKf" crossorigin="anonymous">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <!-- Custom -->
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
     {% block extra_css %}{% endblock %}
 </head>
 <body data-theme-body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-ra sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="{% url 'exams:home' %}">
-                <span class="brand-icon"></span>
-                Simulador Radioafición
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'exams:home' %}">
-                            <i class="bi bi-house-fill"></i> Inicio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'exams:exam_history' %}">
-                            <i class="bi bi-clock-history"></i> Historial
-                        </a>
-                    </li>
-                    {% if user.is_authenticated %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'admin:index' %}">
-                            <i class="bi bi-gear-fill"></i> Admin
-                        </a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item ms-2">
-                        <button id="theme-toggle" class="theme-toggle" type="button"
-                                onclick="toggleTheme()"
-                                aria-label="Cambiar a modo claro"
-                                title="Cambiar tema">
-                            <i class="bi bi-sun-fill"></i>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <nav class="navbar sticky-top">
+        <a class="navbar-brand" href="{% url 'exams:home' %}">
+            <span class="brand-icon">
+                <i class="material-icons-outlined" style="font-size:1.2rem;">cell_tower</i>
+            </span>
+            Simulador Radioafición
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'exams:home' %}">
+                    <i class="material-icons-outlined">home</i> Inicio
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'exams:exam_history' %}">
+                    <i class="material-icons-outlined">history</i> Historial
+                </a>
+            </li>
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'admin:index' %}">
+                    <i class="material-icons-outlined">settings</i> Admin
+                </a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+                <button id="theme-toggle" class="theme-toggle" type="button"
+                        onclick="toggleTheme()"
+                        aria-label="Cambiar a modo claro"
+                        title="Cambiar tema">
+                    <i class="material-icons-outlined">dark_mode</i>
+                </button>
+            </li>
+        </ul>
     </nav>
 
     <!-- Messages -->
@@ -67,7 +61,9 @@
     <div class="container mt-3">
         {% for message in messages %}
         <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
-            <i class="bi bi-{% if 'success' in message.tags %}check-circle{% elif 'danger' in message.tags %}exclamation-triangle{% elif 'warning' in message.tags %}exclamation-circle{% else %}info-circle{% endif %} me-1"></i>
+            <i class="material-icons-outlined" style="font-size:1.1rem; vertical-align:middle;">
+                {% if 'success' in message.tags %}check_circle{% elif 'danger' in message.tags %}warning{% elif 'warning' in message.tags %}error{% else %}info{% endif %}
+            </i>
             {{ message }}
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
         </div>
@@ -82,18 +78,18 @@
     <footer>
         <div class="container text-center">
             <div class="footer-brand">Simulador de Exámenes de Radioafición</div>
-            <p class="mb-2">
+            <p class="mb-2" style="color: var(--text-muted);">
                 Prepara tu licencia de radioaficionado con exámenes de práctica.
             </p>
-            <small>Chile &middot; Reglamento oficial</small>
+            <small style="color: var(--text-muted);">Chile &middot; Reglamento oficial</small>
             <div class="footer-categories">
                 <span class="footer-cat-badge">CD Aspirante</span>
                 <span class="footer-cat-badge">CA Novicio</span>
                 <span class="footer-cat-badge">CE General</span>
                 <span class="footer-cat-badge">XQ Superior</span>
             </div>
-            <hr class="my-3" style="border-color: var(--ra-border);">
-            <small>&copy; 2026 Simulador Radioafición Chile</small>
+            <hr class="my-3" style="border-color: #374151;">
+            <small style="color: var(--text-muted);">&copy; 2026 Simulador Radioafición Chile</small>
         </div>
     </footer>
 

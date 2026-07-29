@@ -20,41 +20,27 @@
                 <div class="card-cat-header-setup">
                     <div class="cat-code-label">{{ category.code }}</div>
                     <div class="cat-name-label mb-2">{{ category.name }}</div>
+
                     {% if category.code == 'CD' %}
-                        <svg viewBox="0 0 100 100" width="110" height="110" class="smeter-cat">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-ink-muted)" stroke-width="7"
-                                    stroke-dasharray="251" stroke-dashoffset="188" stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink-muted)" font-size="16" class="mono fw-bold">25</text>
-                        </svg>
+                        <div class="category-icon" style="background:rgba(16,185,129,0.1);color:var(--accent-green);margin:0 auto;">
+                            <i class="material-icons-outlined">emoji_people</i>
+                        </div>
                     {% elif category.code == 'CA' %}
-                        <svg viewBox="0 0 100 100" width="110" height="110" class="smeter-cat">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="#cd7f32" stroke-width="7"
-                                    stroke-dasharray="251" stroke-dashoffset="126" stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">50</text>
-                        </svg>
+                        <div class="category-icon" style="background:rgba(59,130,246,0.1);color:var(--accent-blue);margin:0 auto;">
+                            <i class="material-icons-outlined">engineering</i>
+                        </div>
                     {% elif category.code == 'CE' %}
-                        <svg viewBox="0 0 100 100" width="110" height="110" class="smeter-cat">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-signal)" stroke-width="7"
-                                    stroke-dasharray="251" stroke-dashoffset="63" stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">75</text>
-                        </svg>
+                        <div class="category-icon" style="background:rgba(139,92,246,0.1);color:var(--accent-purple);margin:0 auto;">
+                            <i class="material-icons-outlined">precision_manufacturing</i>
+                        </div>
                     {% elif category.code == 'XQ' %}
-                        <svg viewBox="0 0 100 100" width="110" height="110" class="smeter-cat">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-tune)" stroke-width="7"
-                                    stroke-dasharray="251" stroke-dashoffset="13" stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">95</text>
-                        </svg>
+                        <div class="category-icon" style="background:rgba(245,158,11,0.1);color:var(--accent-orange);margin:0 auto;">
+                            <i class="material-icons-outlined">cell_tower</i>
+                        </div>
                     {% else %}
-                        <svg viewBox="0 0 100 100" width="110" height="110" class="smeter-cat">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-border)" stroke-width="7"/>
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ra-signal)" stroke-width="7"
-                                    stroke-dasharray="251" stroke-dashoffset="126" stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                            <text x="50" y="54" text-anchor="middle" fill="var(--ra-ink)" font-size="16" class="mono fw-bold">50</text>
-                        </svg>
+                        <div class="category-icon" style="background:rgba(37,99,235,0.1);color:var(--primary);margin:0 auto;">
+                            <i class="material-icons-outlined">radio</i>
+                        </div>
                     {% endif %}
                 </div>
 
@@ -62,24 +48,24 @@
                     <!-- Exam stats -->
                     <div class="d-flex justify-content-center gap-3 flex-wrap mb-4">
                         <div class="setup-stat-pill">
-                            <i class="bi bi-clipboard-check"></i>
+                            <i class="material-icons-outlined" style="font-size:1rem;">assignment</i>
                             <span><strong>{{ category.exam_size }}</strong> preguntas</span>
                         </div>
                         <div class="setup-stat-pill">
-                            <i class="bi bi-book"></i>
+                            <i class="material-icons-outlined" style="font-size:1rem;">menu_book</i>
                             <span><strong>{{ category.reglamento_count }}</strong> reglamento</span>
                         </div>
                         <div class="setup-stat-pill">
-                            <i class="bi bi-cpu"></i>
+                            <i class="material-icons-outlined" style="font-size:1rem;">memory</i>
                             <span><strong>{{ category.tecnica_count }}</strong> técnica</span>
                         </div>
                     </div>
 
-                    <hr>
+                    <hr style="border-color: var(--border-light);">
 
                     <!-- Mode selection -->
                     <h5 class="mb-4 fw-bold">
-                        <i class="bi bi-sliders"></i>
+                        <i class="material-icons-outlined" style="vertical-align:middle;">tune</i>
                         Modo de práctica
                     </h5>
 
@@ -93,11 +79,11 @@
                                 <label class="form-check-label w-100" for="modeExam">
                                     <div class="d-flex align-items-center">
                                         <div class="mode-icon exam">
-                                            <i class="bi bi-stopwatch-fill"></i>
+                                            <i class="material-icons-outlined">timer</i>
                                         </div>
                                         <div class="ms-3">
                                             <strong class="d-block">Examen</strong>
-                                            <div class="small" style="color: var(--ra-ink-muted);">
+                                            <div class="small" style="color: var(--text-secondary);">
                                                 Cronometrado &middot; Sin retroalimentación &middot; Resultado al finalizar
                                             </div>
                                         </div>
@@ -111,11 +97,11 @@
                                 <label class="form-check-label w-100" for="modeTraining">
                                     <div class="d-flex align-items-center">
                                         <div class="mode-icon training">
-                                            <i class="bi bi-lightbulb-fill"></i>
+                                            <i class="material-icons-outlined">lightbulb</i>
                                         </div>
                                         <div class="ms-3">
                                             <strong class="d-block">Entrenamiento</strong>
-                                            <div class="small" style="color: var(--ra-ink-muted);">
+                                            <div class="small" style="color: var(--text-secondary);">
                                                 Sin tiempo &middot; Retroalimentación inmediata &middot; Aprendizaje libre
                                             </div>
                                         </div>
@@ -125,8 +111,8 @@
                         </div>
 
                         <!-- Pass threshold -->
-                        <div class="d-flex align-items-start gap-2 p-3 rounded-3 mb-4 alert-info" style="border: 1px solid var(--ra-border-strong);">
-                            <i class="bi bi-info-circle-fill mt-1"></i>
+                        <div class="d-flex align-items-start gap-2 p-3 rounded-3 mb-4" style="background:rgba(59,130,246,0.06); border: 1px solid rgba(59,130,246,0.15);">
+                            <i class="material-icons-outlined mt-1" style="color:var(--primary);">info</i>
                             <div class="small">
                                 Para aprobar el examen real necesitas <strong>al menos 70%</strong> de respuestas correctas.
                                 En modo examen se aplicará este umbral.
@@ -134,7 +120,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-lg btn-primary w-100 py-3">
-                            <i class="bi bi-play-circle-fill me-1"></i> Comenzar
+                            <i class="material-icons-outlined" style="font-size:1.2rem; vertical-align:middle;">play_arrow</i> Comenzar
                         </button>
                     </form>
                 </div>

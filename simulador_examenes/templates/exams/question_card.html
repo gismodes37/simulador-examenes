@@ -4,7 +4,9 @@
         <!-- Area badge -->
         <div class="mb-3">
             <span class="badge {% if question.area.name == 'Reglamentacion' %}badge-reglamento{% else %}badge-tecnica{% endif %} area-badge">
-                <i class="bi bi-{% if question.area.name == 'Reglamentacion' %}book{% else %}cpu{% endif %} me-1"></i>
+                <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">
+                    {% if question.area.name == 'Reglamentacion' %}menu_book{% else %}memory{% endif %}
+                </i>
                 {{ question.area.name }}
             </span>
         </div>
@@ -48,9 +50,9 @@
             <div class="mt-4 text-center" id="submit-btn-wrapper" style="display:none;">
                 <button type="submit" class="btn btn-primary btn-lg px-5" id="submit-btn">
                     {% if is_last %}
-                        <i class="bi bi-check-circle-fill"></i> Finalizar Examen
+                        <i class="material-icons-outlined" style="font-size:1.2rem;vertical-align:middle;">check_circle</i> Finalizar Examen
                     {% else %}
-                        <i class="bi bi-arrow-right-circle"></i> Siguiente Pregunta
+                        <i class="material-icons-outlined" style="font-size:1.2rem;vertical-align:middle;">arrow_forward</i> Siguiente Pregunta
                     {% endif %}
                 </button>
             </div>
@@ -62,15 +64,15 @@
             <div class="alert {% if is_correct %}alert-success{% else %}alert-danger{% endif %} mb-2">
                 <strong>
                     {% if is_correct %}
-                        <i class="bi bi-check-circle-fill"></i> ¡Correcto!
+                        <i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">check_circle</i> ¡Correcto!
                     {% else %}
-                        <i class="bi bi-x-circle-fill"></i> Incorrecto — tu respuesta: {{ selected_answer }} · Correcta: {{ question.correct_answer }}
+                        <i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">cancel</i> Incorrecto — tu respuesta: {{ selected_answer }} · Correcta: {{ question.correct_answer }}
                     {% endif %}
                 </strong>
             </div>
             {% if question.explanation %}
             <div class="alert alert-info small mb-0">
-                <i class="bi bi-info-circle-fill"></i> {{ question.explanation }}
+                <i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">info</i> {{ question.explanation }}
             </div>
             {% endif %}
         </div>

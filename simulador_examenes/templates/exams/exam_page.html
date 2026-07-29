@@ -12,20 +12,20 @@
                     <span class="badge bg-primary fs-6">{{ attempt.category.code }}</span>
                     <span class="badge {% if attempt.mode == 'exam' %}badge-mode-exam{% else %}badge-mode-training{% endif %} fs-6">
                         {% if attempt.mode == 'exam' %}
-                            <i class="bi bi-stopwatch"></i> Examen
+                            <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">timer</i> Examen
                         {% else %}
-                            <i class="bi bi-lightbulb"></i> Entrenamiento
+                            <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">lightbulb</i> Entrenamiento
                         {% endif %}
                     </span>
                 </div>
                 <div class="d-flex align-items-center gap-3">
                     {% if attempt.mode == 'exam' %}
                     <div class="timer-display" id="timer" data-seconds-left="{{ seconds_remaining }}">
-                        <i class="bi bi-clock-fill"></i> <span id="timer-display">--:--</span>
+                        <i class="material-icons-outlined" style="font-size:1rem;">schedule</i> <span id="timer-display">--:--</span>
                     </div>
                     {% endif %}
                     <div class="stat-pill mono">
-                        <i class="bi bi-list-ol"></i>
+                        <i class="material-icons-outlined" style="font-size:1rem;">format_list_numbered</i>
                         <span id="question-counter">{{ current_index }} / {{ total_questions }}</span>
                     </div>
                 </div>
@@ -45,7 +45,9 @@
                     <!-- Area badge -->
                     <div class="mb-3">
                         <span class="badge {% if question.area.name == 'Reglamentacion' %}badge-reglamento{% else %}badge-tecnica{% endif %} area-badge">
-                            <i class="bi bi-{% if question.area.name == 'Reglamentacion' %}book{% else %}cpu{% endif %} me-1"></i>
+                            <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">
+                                {% if question.area.name == 'Reglamentacion' %}menu_book{% else %}memory{% endif %}
+                            </i>
                             {{ question.area.name }}
                         </span>
                     </div>
@@ -89,9 +91,9 @@
                         <div class="mt-4 text-center" id="submit-btn-wrapper" style="display:none;">
                             <button type="submit" class="btn btn-primary btn-lg px-5" id="submit-btn">
                                 {% if is_last %}
-                                    <i class="bi bi-check-circle-fill"></i> Finalizar Examen
+                                    <i class="material-icons-outlined" style="font-size:1.2rem;vertical-align:middle;">check_circle</i> Finalizar Examen
                                 {% else %}
-                                    <i class="bi bi-arrow-right-circle"></i> Siguiente Pregunta
+                                    <i class="material-icons-outlined" style="font-size:1.2rem;vertical-align:middle;">arrow_forward</i> Siguiente Pregunta
                                 {% endif %}
                             </button>
                         </div>

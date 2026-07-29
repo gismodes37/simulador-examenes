@@ -25,7 +25,7 @@
                     <div class="result-label">
                         {% if passed %}¡Aprobado! · {{ score }}%{% else %}No alcanzado · {{ score }}%{% endif %}
                     </div>
-                    <p class="mt-2 mb-0 mono" style="color: var(--ra-ink-muted); font-size:.92rem;">
+                    <p class="mt-2 mb-0" style="color: var(--text-secondary); font-size:.92rem;">
                         {{ correct_count }} de {{ total_questions }} respuestas correctas
                     </p>
                 </div>
@@ -37,14 +37,14 @@
                             <span class="badge bg-primary fs-6">{{ attempt.category.code }}</span>
                             <span class="badge {% if attempt.mode == 'exam' %}badge-mode-exam{% else %}badge-mode-training{% endif %}">
                                 {% if attempt.mode == 'exam' %}
-                                    <i class="bi bi-stopwatch"></i> Examen
+                                    <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">timer</i> Examen
                                 {% else %}
-                                    <i class="bi bi-lightbulb"></i> Entrenamiento
+                                    <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">lightbulb</i> Entrenamiento
                                 {% endif %}
                             </span>
                         </div>
-                        <small class="mono" style="color: var(--ra-ink-muted);">
-                            <i class="bi bi-calendar3"></i> {{ attempt.started_at|date:"d/m/Y H:i" }}
+                        <small style="color: var(--text-secondary);">
+                            <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">calendar_today</i> {{ attempt.started_at|date:"d/m/Y H:i" }}
                         </small>
                     </div>
 
@@ -54,22 +54,22 @@
                             <div class="p-3 stat-box">
                                 <div class="mb-1">
                                     <span class="badge badge-reglamento px-3 py-1">
-                                        <i class="bi bi-book me-1"></i> Reglamento
+                                        <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">menu_book</i> Reglamento
                                     </span>
                                 </div>
                                 <div class="fs-2 fw-bold mono">{{ reglamento_score }}%</div>
-                                <small style="color: var(--ra-ink-muted);">{{ reglamento_correct }} / {{ reglamento_total }}</small>
+                                <small style="color: var(--text-secondary);">{{ reglamento_correct }} / {{ reglamento_total }}</small>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="p-3 stat-box">
                                 <div class="mb-1">
                                     <span class="badge badge-tecnica px-3 py-1">
-                                        <i class="bi bi-cpu me-1"></i> Técnica
+                                        <i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">memory</i> Técnica
                                     </span>
                                 </div>
                                 <div class="fs-2 fw-bold mono">{{ tecnica_score }}%</div>
-                                <small style="color: var(--ra-ink-muted);">{{ tecnica_correct }} / {{ tecnica_total }}</small>
+                                <small style="color: var(--text-secondary);">{{ tecnica_correct }} / {{ tecnica_total }}</small>
                             </div>
                         </div>
                     </div>
@@ -81,16 +81,16 @@
             <div class="card mb-4">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5 class="mb-0 fw-bold">
-                        <i class="bi bi-list-check me-1"></i>
+                        <i class="material-icons-outlined" style="font-size:1.1rem;vertical-align:middle;">list</i>
                         Respuestas incorrectas
                     </h5>
-                    <span class="badge" style="background-color: var(--ra-alarm); color:#fff;">
+                    <span class="badge" style="background-color: var(--danger); color: white;">
                         {{ wrong_answers|length }}
                     </span>
                 </div>
                 <div class="card-body p-0">
                     {% for item in wrong_answers %}
-                    <div class="wrong-answer-row {% if not forloop.last %}border-bottom{% endif %}" style="border-color: var(--ra-border) !important;">
+                    <div class="wrong-answer-row {% if not forloop.last %}border-bottom{% endif %}" style="border-color: var(--border-light) !important;">
                         <div class="d-flex align-items-start gap-3">
                             <span class="badge {% if item.question.area.name == 'Reglamentacion' %}badge-reglamento{% else %}badge-tecnica{% endif %} area-badge mt-1 flex-shrink-0">
                                 {{ item.question.area.name|truncatechars:5 }}
@@ -98,20 +98,20 @@
                             <div class="flex-grow-1">
                                 <p class="mb-2 fw-semibold" style="line-height:1.6;">{{ item.question.text }}</p>
                                 <div class="small">
-                                    <div class="mb-1" style="color: var(--ra-alarm);">
-                                        <i class="bi bi-x-circle-fill me-1"></i>
+                                    <div class="mb-1" style="color: var(--danger);">
+                                        <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">cancel</i>
                                         <strong>Tu respuesta: {{ item.selected }}</strong>
                                         — {{ item.selected_text }}
                                     </div>
-                                    <div style="color: var(--ra-tune);">
-                                        <i class="bi bi-check-circle-fill me-1"></i>
+                                    <div style="color: var(--success);">
+                                        <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">check_circle</i>
                                         <strong>Correcta: {{ item.question.correct_answer }}</strong>
                                         — {{ item.correct_text }}
                                     </div>
                                 </div>
                                 {% if item.question.explanation %}
-                                <div class="mt-2 small p-2 rounded-3 alert-info">
-                                    <i class="bi bi-info-circle me-1"></i> {{ item.question.explanation }}
+                                <div class="mt-2 small p-2 rounded-3" style="background:rgba(59,130,246,0.06); border: 1px solid rgba(59,130,246,0.12);">
+                                    <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;color:var(--primary);">info</i> {{ item.question.explanation }}
                                 </div>
                                 {% endif %}
                             </div>
@@ -125,10 +125,10 @@
             <!-- Actions -->
             <div class="d-flex gap-3 flex-wrap">
                 <a href="{% url 'exams:exam_setup' attempt.category.code %}" class="btn btn-primary btn-lg px-4">
-                    <i class="bi bi-arrow-repeat"></i> Volver a intentar
+                    <i class="material-icons-outlined" style="font-size:1.1rem;vertical-align:middle;">replay</i> Volver a intentar
                 </a>
                 <a href="{% url 'exams:home' %}" class="btn btn-outline-secondary btn-lg px-4">
-                    <i class="bi bi-house"></i> Inicio
+                    <i class="material-icons-outlined" style="font-size:1.1rem;vertical-align:middle;">home</i> Inicio
                 </a>
             </div>
         </div>

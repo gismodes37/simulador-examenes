@@ -3,7 +3,7 @@ from datetime import timedelta
 
 from django.contrib import messages
 from django.core.paginator import Paginator
-from django.db.models import Q
+from django.db.models import Case, Q, When
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
@@ -24,7 +24,15 @@ def home(request):
             "questions",
             filter=Q(questions__is_active=True),
         )
-    ).all()
+    ).order_by(
+        Case(
+            When(code="CD", then=0),
+            When(code="CA", then=1),
+            When(code="CE", then=2),
+            When(code="XQ", then=3),
+            default=4,
+        )
+    )
 
     return render(request, "exams/home.html", {"categories": categories})
 

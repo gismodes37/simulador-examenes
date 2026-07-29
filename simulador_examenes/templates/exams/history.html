@@ -9,11 +9,11 @@
             <!-- Header -->
             <div class="d-flex align-items-center gap-3 mb-4">
                 <div class="stat-icon" style="width:52px; height:52px; font-size:1.3rem;">
-                    <i class="bi bi-clock-history"></i>
+                    <i class="material-icons-outlined">history</i>
                 </div>
                 <div>
                     <h2 class="mb-0 fw-bold">Historial de Exámenes</h2>
-                    <p class="mb-0 small" style="color: var(--ra-ink-muted);">Todas tus sesiones de práctica anteriores</p>
+                    <p class="mb-0 small" style="color: var(--text-secondary);">Todas tus sesiones de práctica anteriores</p>
                 </div>
             </div>
 
@@ -22,8 +22,8 @@
                 <div class="card-body">
                     <form method="get" class="row g-3 align-items-end">
                         <div class="col-sm-4">
-                            <label for="category-filter" class="form-label small fw-semibold" style="color: var(--ra-ink-muted);">
-                                <i class="bi bi-grid me-1"></i> Categoría
+                            <label for="category-filter" class="form-label small fw-semibold" style="color: var(--text-secondary);">
+                                <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">grid_view</i> Categoría
                             </label>
                             <select name="category" id="category-filter" class="form-select" onchange="this.form.submit()">
                                 <option value="">Todas</option>
@@ -35,8 +35,8 @@
                             </select>
                         </div>
                         <div class="col-sm-4">
-                            <label for="mode-filter" class="form-label small fw-semibold" style="color: var(--ra-ink-muted);">
-                                <i class="bi bi-sliders me-1"></i> Modo
+                            <label for="mode-filter" class="form-label small fw-semibold" style="color: var(--text-secondary);">
+                                <i class="material-icons-outlined" style="font-size:.9rem;vertical-align:middle;">tune</i> Modo
                             </label>
                             <select name="mode" id="mode-filter" class="form-select" onchange="this.form.submit()">
                                 <option value="">Todos</option>
@@ -45,7 +45,7 @@
                             </select>
                         </div>
                         <div class="col-sm-4">
-                            <noscript><button type="submit" class="btn btn-outline-primary w-100"><i class="bi bi-funnel"></i> Filtrar</button></noscript>
+                            <noscript><button type="submit" class="btn btn-outline-primary w-100"><i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">filter_list</i> Filtrar</button></noscript>
                         </div>
                     </form>
                 </div>
@@ -58,11 +58,11 @@
                     <table class="table table-hover align-middle mb-0">
                         <thead>
                             <tr>
-                                <th><i class="bi bi-calendar3 me-1"></i> Fecha</th>
-                                <th><i class="bi bi-grid me-1"></i> Categoría</th>
-                                <th><i class="bi bi-sliders me-1"></i> Modo</th>
-                                <th class="text-center"><i class="bi bi-speedometer2 me-1"></i> Puntaje</th>
-                                <th class="text-center"><i class="bi bi-flag me-1"></i> Estado</th>
+                                <th><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">calendar_today</i> Fecha</th>
+                                <th><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">grid_view</i> Categoría</th>
+                                <th><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">tune</i> Modo</th>
+                                <th class="text-center"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">speed</i> Puntaje</th>
+                                <th class="text-center"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">flag</i> Estado</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -71,43 +71,43 @@
                             <tr>
                                 <td>
                                     <div class="fw-semibold mono">{{ attempt.started_at|date:"d/m/Y" }}</div>
-                                    <small class="mono" style="color: var(--ra-ink-muted);">{{ attempt.started_at|date:"H:i" }}</small>
+                                    <small class="mono" style="color: var(--text-secondary);">{{ attempt.started_at|date:"H:i" }}</small>
                                 </td>
                                 <td>
                                     <span class="badge bg-primary me-1">{{ attempt.category.code }}</span>
-                                    <span class="small d-none d-md-inline" style="color: var(--ra-ink-muted);">{{ attempt.category.name }}</span>
+                                    <span class="small d-none d-md-inline" style="color: var(--text-secondary);">{{ attempt.category.name }}</span>
                                 </td>
                                 <td>
                                     {% if attempt.mode == 'exam' %}
-                                        <span class="badge badge-mode-exam"><i class="bi bi-stopwatch"></i> Examen</span>
+                                        <span class="badge badge-mode-exam"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">timer</i> Examen</span>
                                     {% else %}
-                                        <span class="badge badge-mode-training"><i class="bi bi-lightbulb"></i> Entrenamiento</span>
+                                        <span class="badge badge-mode-training"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">lightbulb</i> Entrenamiento</span>
                                     {% endif %}
                                 </td>
                                 <td class="text-center">
                                     {% if attempt.score is not None %}
-                                    <strong class="fs-5 score-mono" style="color: {% if attempt.score >= 70 %}var(--ra-tune){% else %}var(--ra-alarm){% endif %};">
+                                    <strong class="fs-5 score-mono" style="color: {% if attempt.score >= 70 %}var(--success){% else %}var(--danger){% endif %};">
                                         {{ attempt.score }}%
                                     </strong>
                                     {% else %}
-                                    <span style="color: var(--ra-ink-muted);">—</span>
+                                    <span style="color: var(--text-muted);">—</span>
                                     {% endif %}
                                 </td>
                                 <td class="text-center">
                                     {% if attempt.score is not None %}
                                         {% if attempt.score >= 70 %}
-                                            <span class="badge" style="background-color: var(--ra-tune); color:#06251a;"><i class="bi bi-check-circle-fill"></i> Aprobado</span>
+                                            <span class="badge" style="background-color: var(--success); color: white;"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">check_circle</i> Aprobado</span>
                                         {% else %}
-                                            <span class="badge" style="background-color: var(--ra-alarm); color:#fff;"><i class="bi bi-x-circle-fill"></i> No alcanzado</span>
+                                            <span class="badge" style="background-color: var(--danger); color: white;"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">cancel</i> No alcanzado</span>
                                         {% endif %}
                                     {% else %}
-                                        <span class="badge badge-tecnica"><i class="bi bi-dash-circle"></i> Incompleto</span>
+                                        <span class="badge badge-tecnica"><i class="material-icons-outlined" style="font-size:.85rem;vertical-align:middle;">remove</i> Incompleto</span>
                                     {% endif %}
                                 </td>
                                 <td>
                                     {% if attempt.score is not None %}
                                     <a href="{% url 'exams:exam_results' attempt.pk %}" class="btn btn-sm btn-outline-primary" title="Ver detalles">
-                                        <i class="bi bi-eye-fill"></i>
+                                        <i class="material-icons-outlined" style="font-size:1rem;">visibility</i>
                                     </a>
                                     {% endif %}
                                 </td>
@@ -125,7 +125,7 @@
                     {% if page_obj.has_previous %}
                     <li class="page-item">
                         <a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if selected_category %}&category={{ selected_category }}{% endif %}{% if selected_mode %}&mode={{ selected_mode }}{% endif %}">
-                            <i class="bi bi-chevron-left"></i> Anterior
+                            <i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">chevron_left</i> Anterior
                         </a>
                     </li>
                     {% endif %}
@@ -141,7 +141,7 @@
                     {% if page_obj.has_next %}
                     <li class="page-item">
                         <a class="page-link" href="?page={{ page_obj.next_page_number }}{% if selected_category %}&category={{ selected_category }}{% endif %}{% if selected_mode %}&mode={{ selected_mode }}{% endif %}">
-                            Siguiente <i class="bi bi-chevron-right"></i>
+                            Siguiente <i class="material-icons-outlined" style="font-size:1rem;vertical-align:middle;">chevron_right</i>
                         </a>
                     </li>
                     {% endif %}
@@ -153,11 +153,11 @@
             <!-- Empty state -->
             <div class="card">
                 <div class="empty-state">
-                    <div class="empty-state-icon"><i class="bi bi-inbox"></i></div>
+                    <div class="empty-state-icon"><i class="material-icons-outlined">inbox</i></div>
                     <h5 class="mb-2">Sin intentos registrados</h5>
-                    <p class="mb-3" style="color: var(--ra-ink-muted);">Comienza tu primer examen para ver el historial aquí.</p>
+                    <p class="mb-3" style="color: var(--text-secondary);">Comienza tu primer examen para ver el historial aquí.</p>
                     <a href="{% url 'exams:home' %}" class="btn btn-primary px-4">
-                        <i class="bi bi-play-circle-fill"></i> Comenzar
+                        <i class="material-icons-outlined" style="font-size:1.1rem;vertical-align:middle;">play_arrow</i> Comenzar
                     </a>
                 </div>
             </div>
